@@ -100,11 +100,11 @@
 							if($validPassword === true)
 							{
 								//Provide the subscriber with a login session.
-								echo $_SESSION['user_id '] = $row['user_id '];
+								echo $_SESSION['user_id'] = $row['user_id'];
 								echo $_SESSION['user_email'] = $row['user_email'];
 								echo $_SESSION['role_type'] = $row['role_type'];
 
-								die();
+								//die();
 
 								$sql = "UPDATE tbl_user
 										SET user_login_time = Now()
@@ -118,7 +118,7 @@
 								
 								if($result > 0)
 								{
-									header('Location: forgot.html');
+									header('Location: dashboard_sale.php');
 									exit;
 								}
 							}
