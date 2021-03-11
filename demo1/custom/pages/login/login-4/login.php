@@ -2,13 +2,9 @@
 <?php
   ob_start();
   session_start();
-  
-  
 ?>
 <html lang="en">
 <!--begin::Head-->
-
-
 
 <meta charset="utf-8" />
 <title>Sign In | technagers</title>
@@ -61,7 +57,8 @@
 									//Retrieve the field values from our login form.
 									$user_email = !empty($_POST['user_email']) ? trim($_POST['user_email']) : null;
 									$passwordAttempt = !empty($_POST['password']) ? trim($_POST['password']) : null;
-									login($user_email, $passwordAttempt);
+									//Function calling here...
+                                    login($user_email, $passwordAttempt);
 								}
 							?>
 

@@ -8,22 +8,24 @@ error_reporting(E_ALL);
 function db()
 {
     static $conn;
+
     if($conn===NULL)
     {
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname="technager_db";
-​	
-        try{
-        $conn = new PDO("mysql:host=$servername;dbname=technager_db", $username, $password);
-        // set the PDO error mode to exception
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo "Connected successfully";
-        $abc = "Asees";
-        } catch(PDOException $e) {
-        echo "Connection failed: " . $e->getMessage();
-        }
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+
+		try 
+		{
+		  $conn = new PDO("mysql:host=$servername;dbname=technager_db", $username, $password);
+		  // set the PDO error mode to exception
+		  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		  echo "Connected successfully";
+		} 
+		catch(PDOException $e) 
+		{
+		  echo "Connection failed: " . $e->getMessage();
+		}
     }
     return $conn;
 }
@@ -75,6 +77,7 @@ function login($user_email, $passwordAttempt)
 			echo $_SESSION['user_email'] = $row['user_email'];
 			echo $_SESSION['role_type'] = $row['role_type'];
 
+
 			//die();
 
 			$sql = "UPDATE tbl_user
@@ -89,7 +92,7 @@ function login($user_email, $passwordAttempt)
 			
 			if($result > 0)
 			{
-				header('Location: dashboard_sale.php');
+				header('Location: ../../../apps/projects/add-project.php');
 				exit;
 			}
 		}
