@@ -29,7 +29,7 @@
 		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/brand/darkafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
 		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/aside/darkafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
 		<!--end::Layout Themes-->
-		
+
 		<!-- Hotjar Tracking Code for keenthemes.com -->
 		
 	</head>
