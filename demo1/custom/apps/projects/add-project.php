@@ -219,10 +219,28 @@
 																	</div>
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Project Cost</label>
-																		<div class="col-lg-9 col-xl-9">
+																		<div class="col-lg-9 col-xl-4">
 																			<input class="form-control form-control-lg form-control-solid" name="customername" type="text"/>
 																		</div>
+
+																		<!-- dropdown -->
+																		<div class="col-lg-10 col-xl-5">
+																			
+																			<select name="language" class="form-control form-control-lg form-control-solid">
+																				
+																				<option value="id">PKR</option>
+																				<option value="id">Dollar $</option>
+																				
+																				
+																			</select>
+
+																			
+																		
+																		</div>
+																		
+																		
 																	</div>
+																	
 
 																</div>
 															</div>

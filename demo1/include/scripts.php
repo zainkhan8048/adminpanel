@@ -23,3 +23,11 @@
 		<!--begin::Page Scripts(used by this page)-->
 		<script src="../theme/html/demo1/dist/assets/js/pages/widgetsafa4.js?v=7.2.0"></script>
 		<!--end::Page Scripts-->
+
+		<script src="../../../../theme/html/demo1/dist/assets/plugins/global/plugins.bundleafa4.js?v=7.2.0"></script>
+		<script src="../../../../theme/html/demo1/dist/assets/plugins/custom/prismjs/prismjs.bundleafa4.js?v=7.2.0"></script>
+		<script src="../../../../theme/html/demo1/dist/assets/js/scripts.bundleafa4.js?v=7.2.0"></script>
+		<!--end::Global Theme Bundle-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="../../../../theme/html/demo1/dist/assets/js/pages/widgetsafa4.js?v=7.2.0"></script>
+		<!--end::Page Scripts-->
