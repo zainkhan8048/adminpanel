@@ -3,28 +3,20 @@
 <html lang="en">
 	<!--begin::Head-->
 	
-<!-- Mirrored from preview.keenthemes.com/metronic/demo1/custom/apps/projects/edit-project.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2021 13:40:11 GMT -->
+<!-- Mirrored from preview.keenthemes.com/metronic/demo1/custom/apps/profile/profile-1/overview.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2021 13:39:13 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-		
+		<!-- Google Tag Manager -->
+	
+		<!-- End Google Tag Manager -->
 		<meta charset="utf-8" />
-		<title>Edit Project | Technagers</title>
-		<meta name="description" content="Edit project page example" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Profile 1 | TMS | Technagers Management System<</title>
 		
-		<!--begin::Fonts-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
-		<!--end::Fonts-->
-		<!--begin::Global Theme Styles(used by all pages)-->
-		<link href="../../../../theme/html/demo1/dist/assets/plugins/global/plugins.bundleafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<link href="../../../../theme/html/demo1/dist/assets/plugins/custom/prismjs/prismjs.bundleafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<link href="../../../../theme/html/demo1/dist/assets/css/style.bundleafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<!--end::Global Theme Styles-->
+		
+
+		
 		<!--begin::Layout Themes(used by all pages)-->
-		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/header/base/lightafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/header/menu/lightafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/brand/darkafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
-		<link href="../../../../theme/html/demo1/dist/assets/css/themes/layout/aside/darkafa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
+		<?php include('../../../../include/head.php'); ?>
 		<!--end::Layout Themes-->
 		
 		<!-- Hotjar Tracking Code for keenthemes.com -->
@@ -37,22 +29,26 @@
 		<!--begin::Main-->
 		<!--begin::Header Mobile-->
 		
-		<?php include '../../../include/header_mobile.php';?>
 		<!--end::Header Mobile-->
-
-
-		
 		<div class="d-flex flex-column flex-root">
 			<!--begin::Page-->
 			<div class="d-flex flex-row flex-column-fluid page">
 				<!--begin::Aside-->
 				<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
 					<!--begin::Brand-->
-					<?php include '../../../include/brand_logo.php';?>
+					<div class="brand flex-column-auto" id="kt_brand">
+						<!--begin::Logo-->
+						<a href="../../../../index.html" class="brand-logo">
+							<img alt="Logo" src="../../../../../theme/html/demo1/dist/assets/media/logos/logo-light.png" />
+						</a>
+						<!--end::Logo-->
+						<!--begin::Toggle-->
+						
+						<!--end::Toolbar-->
+					</div>
 					<!--end::Brand-->
-
 					<!--begin::Aside Menu-->
-					<?php include '../../../include/aside-menu.php';?>
+					<?php include('../../../../include/aside-menu-overview.php'); ?>
 					<!--end::Aside Menu-->
 				</div>
 				<!--end::Aside-->
@@ -76,7 +72,7 @@
 											<div class="menu-submenu menu-submenu-classic menu-submenu-left">
 												<ul class="menu-subnav">
 													<li class="menu-item" aria-haspopup="true">
-														<a href="../../../index.html" class="menu-link">
+														<a href="../../../../index.html" class="menu-link">
 															<span class="svg-icon menu-icon">
 																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Clothes/Briefcase.svg-->
 																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -179,7 +175,7 @@
 														</div>
 													</li>
 													<li class="menu-item menu-item-submenu" data-menu-toggle="hover" aria-haspopup="true">
-														<a href="../../../index-2.html#.html" class="menu-link menu-toggle">
+														<a href="../../../../index-2.html#.html" class="menu-link menu-toggle">
 															<span class="svg-icon menu-icon">
 																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Mail-box.svg-->
 																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -785,7 +781,7 @@
 									<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
 										<form>
 											<!--begin::Header-->
-											<div class="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(../../../../theme/html/demo1/dist/assets/media/misc/bg-1.jpg)">
+											<div class="d-flex flex-column pt-12 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(../../../../../theme/html/demo1/dist/assets/media/misc/bg-1.jpg)">
 												<!--begin::Title-->
 												<h4 class="d-flex flex-center rounded-top">
 													<span class="text-white">User Notifications</span>
@@ -1243,7 +1239,7 @@
 									<!--begin::Dropdown-->
 									<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
 										<!--begin:Header-->
-										<div class="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(../../../../theme/html/demo1/dist/assets/media/misc/bg-1.jpg)">
+										<div class="d-flex flex-column flex-center py-10 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(../../../../../theme/html/demo1/dist/assets/media/misc/bg-1.jpg)">
 											<h4 class="text-white font-weight-bold">Quick Actions</h4>
 											<span class="btn btn-success btn-sm font-weight-bold font-size-sm mt-2">23 tasks pending</span>
 										</div>
@@ -1472,59 +1468,110 @@
 					<!--begin::Content-->
 					<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
 						<!--begin::Subheader-->
-						<div class="subheader py-2 py-lg-4 subheader-solid" id="kt_subheader">
+						<div class="subheader py-2 py-lg-6 subheader-solid" id="kt_subheader">
 							<div class="container-fluid d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
-								<!--begin::Details-->
-								<div class="d-flex align-items-center flex-wrap mr-2">
-									<!--begin::Title-->
-									<h5 class="text-dark font-weight-bold mt-2 mb-2 mr-5">Edit Project</h5>
-									<!--end::Title-->
-									<!--begin::Separator-->
-									<div class="subheader-separator subheader-separator-ver mt-2 mb-2 mr-5 bg-gray-200"></div>
-									<!--end::Separator-->
-									<!--begin::Search Form-->
-									<div class="d-flex align-items-center" id="kt_subheader_search">
-										<span class="text-dark-50 font-weight-bold" id="kt_subheader_total">CRM Development</span>
+								<!--begin::Info-->
+								<div class="d-flex align-items-center flex-wrap mr-1">
+									<!--begin::Mobile Toggle-->
+									<button class="burger-icon burger-icon-left mr-4 d-inline-block d-lg-none" id="kt_subheader_mobile_toggle">
+										<span></span>
+									</button>
+									<!--end::Mobile Toggle-->
+									<!--begin::Page Heading-->
+									<div class="d-flex align-items-baseline flex-wrap mr-5">
+										<!--begin::Page Title-->
+										<h5 class="text-dark font-weight-bold my-1 mr-5">Profile 1</h5>
+										<!--end::Page Title-->
+										<!--begin::Breadcrumb-->
+										<ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2 font-size-sm">
+											<li class="breadcrumb-item text-muted">
+												<a href="#" class="text-muted">Apps</a>
+											</li>
+											<li class="breadcrumb-item text-muted">
+												<a href="#" class="text-muted">Profile</a>
+											</li>
+											<li class="breadcrumb-item text-muted">
+												<a href="#" class="text-muted">Profile 1</a>
+											</li>
+											<li class="breadcrumb-item text-muted">
+												<a href="#" class="text-muted">Overview</a>
+											</li>
+										</ul>
+										<!--end::Breadcrumb-->
 									</div>
-									<!--end::Search Form-->
+									<!--end::Page Heading-->
 								</div>
-								<!--end::Details-->
+								<!--end::Info-->
 								<!--begin::Toolbar-->
 								<div class="d-flex align-items-center">
-									<!--begin::Button-->
-									<a href="../../../index-2.html#.html" class="btn btn-default font-weight-bold">Back</a>
-									<!--end::Button-->
+									<!--begin::Actions-->
+									<a href="#" class="btn btn-light-primary font-weight-bolder btn-sm">Actions</a>
+									<!--end::Actions-->
 									<!--begin::Dropdown-->
-									<div class="btn-group ml-2">
-										<button type="button" class="btn btn-primary font-weight-bold">Save Changes</button>
-										<button type="button" class="btn btn-primary font-weight-bold dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-										<div class="dropdown-menu dropdown-menu-sm p-0 m-0 dropdown-menu-right">
-											<ul class="navi py-5">
+									<div class="dropdown dropdown-inline" data-toggle="tooltip" title="Quick actions" data-placement="left">
+										<a href="#" class="btn btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<span class="svg-icon svg-icon-success svg-icon-2x">
+												<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Files/File-plus.svg-->
+												<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+													<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+														<polygon points="0 0 24 0 24 24 0 24" />
+														<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+														<path d="M11,14 L9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 L11,12 L11,10 C11,9.44771525 11.4477153,9 12,9 C12.5522847,9 13,9.44771525 13,10 L13,12 L15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 L13,14 L13,16 C13,16.5522847 12.5522847,17 12,17 C11.4477153,17 11,16.5522847 11,16 L11,14 Z" fill="#000000" />
+													</g>
+												</svg>
+												<!--end::Svg Icon-->
+											</span>
+										</a>
+										<div class="dropdown-menu dropdown-menu-md dropdown-menu-right p-0 m-0">
+											<!--begin::Navigation-->
+											<ul class="navi navi-hover">
+												<li class="navi-header font-weight-bold py-4">
+													<span class="font-size-lg">Choose Label:</span>
+													<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
+												</li>
+												<li class="navi-separator mb-3 opacity-70"></li>
 												<li class="navi-item">
 													<a href="#" class="navi-link">
-														<span class="navi-icon">
-															<i class="flaticon2-writing"></i>
+														<span class="navi-text">
+															<span class="label label-xl label-inline label-light-success">Customer</span>
 														</span>
-														<span class="navi-text">Save &amp; continue</span>
 													</a>
 												</li>
 												<li class="navi-item">
 													<a href="#" class="navi-link">
-														<span class="navi-icon">
-															<i class="flaticon2-medical-records"></i>
+														<span class="navi-text">
+															<span class="label label-xl label-inline label-light-danger">Partner</span>
 														</span>
-														<span class="navi-text">Save &amp; add new</span>
 													</a>
 												</li>
 												<li class="navi-item">
 													<a href="#" class="navi-link">
-														<span class="navi-icon">
-															<i class="flaticon2-hourglass-1"></i>
+														<span class="navi-text">
+															<span class="label label-xl label-inline label-light-warning">Suplier</span>
 														</span>
-														<span class="navi-text">Save &amp; exit</span>
 													</a>
+												</li>
+												<li class="navi-item">
+													<a href="#" class="navi-link">
+														<span class="navi-text">
+															<span class="label label-xl label-inline label-light-primary">Member</span>
+														</span>
+													</a>
+												</li>
+												<li class="navi-item">
+													<a href="#" class="navi-link">
+														<span class="navi-text">
+															<span class="label label-xl label-inline label-light-dark">Staff</span>
+														</span>
+													</a>
+												</li>
+												<li class="navi-separator mt-3 opacity-70"></li>
+												<li class="navi-footer py-4">
+													<a class="btn btn-clean font-weight-bold btn-sm" href="#">
+													<i class="ki ki-plus icon-sm"></i>Add new</a>
 												</li>
 											</ul>
+											<!--end::Navigation-->
 										</div>
 									</div>
 									<!--end::Dropdown-->
@@ -1537,1088 +1584,1801 @@
 						<div class="d-flex flex-column-fluid">
 							<!--begin::Container-->
 							<div class="container">
-								<!--begin::Card-->
-								<div class="card card-custom gutter-b">
-									<div class="card-body">
-										<div class="d-flex">
-											<!--begin: Pic-->
-											<div class="flex-shrink-0 mr-7 mt-lg-0 mt-3">
-												<div class="symbol symbol-50 symbol-lg-120">
-													<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/project-logos/3.png" />
-												</div>
-												<div class="symbol symbol-50 symbol-lg-120 symbol-primary d-none">
-													<span class="font-size-h3 symbol-label font-weight-boldest">JM</span>
-												</div>
-											</div>
-											<!--end: Pic-->
-											<!--begin: Info-->
-											<div class="flex-grow-1">
-												<!--begin: Title-->
-												<div class="d-flex align-items-center justify-content-between flex-wrap">
-													<div class="mr-3">
-														<!--begin::Name-->
-														<a href="#" class="d-flex align-items-center text-dark text-hover-primary font-size-h5 font-weight-bold mr-3">Nexa - Next generation SAAS 
-														<i class="flaticon2-correct text-success icon-md ml-2"></i></a>
-														<!--end::Name-->
-														<!--begin::Contacts-->
-														<div class="d-flex flex-wrap my-2">
-															<a href="#" class="text-muted text-hover-primary font-weight-bold mr-lg-8 mr-5 mb-lg-0 mb-2">
-															<span class="svg-icon svg-icon-md svg-icon-gray-500 mr-1">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Mail-notification.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M21,12.0829584 C20.6747915,12.0283988 20.3407122,12 20,12 C16.6862915,12 14,14.6862915 14,18 C14,18.3407122 14.0283988,18.6747915 14.0829584,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,8 C3,6.8954305 3.8954305,6 5,6 L19,6 C20.1045695,6 21,6.8954305 21,8 L21,12.0829584 Z M18.1444251,7.83964668 L12,11.1481833 L5.85557487,7.83964668 C5.4908718,7.6432681 5.03602525,7.77972206 4.83964668,8.14442513 C4.6432681,8.5091282 4.77972206,8.96397475 5.14442513,9.16035332 L11.6444251,12.6603533 C11.8664074,12.7798822 12.1335926,12.7798822 12.3555749,12.6603533 L18.8555749,9.16035332 C19.2202779,8.96397475 19.3567319,8.5091282 19.1603533,8.14442513 C18.9639747,7.77972206 18.5091282,7.6432681 18.1444251,7.83964668 Z" fill="#000000" />
-																		<circle fill="#000000" opacity="0.3" cx="19.5" cy="17.5" r="2.5" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>jason@siastudio.com</a>
-															<a href="#" class="text-muted text-hover-primary font-weight-bold mr-lg-8 mr-5 mb-lg-0 mb-2">
-															<span class="svg-icon svg-icon-md svg-icon-gray-500 mr-1">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Lock.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<mask fill="white">
-																			<use xlink:href="#path-1" />
-																		</mask>
-																		<g />
-																		<path d="M7,10 L7,8 C7,5.23857625 9.23857625,3 12,3 C14.7614237,3 17,5.23857625 17,8 L17,10 L18,10 C19.1045695,10 20,10.8954305 20,12 L20,18 C20,19.1045695 19.1045695,20 18,20 L6,20 C4.8954305,20 4,19.1045695 4,18 L4,12 C4,10.8954305 4.8954305,10 6,10 L7,10 Z M12,5 C10.3431458,5 9,6.34314575 9,8 L9,10 L15,10 L15,8 C15,6.34314575 13.6568542,5 12,5 Z" fill="#000000" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>PR Manager</a>
-															<a href="#" class="text-muted text-hover-primary font-weight-bold">
-															<span class="svg-icon svg-icon-md svg-icon-gray-500 mr-1">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Map/Marker2.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M9.82829464,16.6565893 C7.02541569,15.7427556 5,13.1079084 5,10 C5,6.13400675 8.13400675,3 12,3 C15.8659932,3 19,6.13400675 19,10 C19,13.1079084 16.9745843,15.7427556 14.1717054,16.6565893 L12,21 L9.82829464,16.6565893 Z M12,12 C13.1045695,12 14,11.1045695 14,10 C14,8.8954305 13.1045695,8 12,8 C10.8954305,8 10,8.8954305 10,10 C10,11.1045695 10.8954305,12 12,12 Z" fill="#000000" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>Melbourne</a>
-														</div>
-														<!--end::Contacts-->
-													</div>
-													<div class="my-lg-0 my-1">
-														<a href="#" class="btn btn-sm btn-light-success font-weight-bolder text-uppercase mr-3">Reports</a>
-														<a href="#" class="btn btn-sm btn-info font-weight-bolder text-uppercase">New Task</a>
-													</div>
-												</div>
-												<!--end: Title-->
-												<!--begin: Content-->
-												<div class="d-flex align-items-center flex-wrap justify-content-between">
-													<div class="flex-grow-1 font-weight-bold text-dark-50 py-5 py-lg-2 mr-5">I distinguish three main text objectives 
-													<br />could be merely to inform people</div>
-													<div class="d-flex flex-wrap align-items-center py-2">
-														<div class="d-flex align-items-center mr-10">
-															<div class="mr-6">
-																<div class="font-weight-bold mb-2">Start Date</div>
-																<span class="btn btn-sm btn-text btn-light-primary text-uppercase font-weight-bold">07 May, 2020</span>
-															</div>
-															<div class="">
-																<div class="font-weight-bold mb-2">Due Date</div>
-																<span class="btn btn-sm btn-text btn-light-danger text-uppercase font-weight-bold">10 June, 2021</span>
-															</div>
-														</div>
-														<div class="flex-grow-1 flex-shrink-0 w-150px w-xl-300px mt-4 mt-sm-0">
-															<span class="font-weight-bold">Progress</span>
-															<div class="progress progress-xs mt-2 mb-2">
-																<div class="progress-bar bg-success" role="progressbar" style="width: 63%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-															</div>
-															<span class="font-weight-bolder text-dark">78%</span>
-														</div>
-													</div>
-												</div>
-												<!--end: Content-->
-											</div>
-											<!--end: Info-->
-										</div>
-										<div class="separator separator-solid my-7"></div>
-										<!--begin: Items-->
-										<div class="d-flex align-items-center flex-wrap">
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
-												<span class="mr-4">
-													<i class="flaticon-piggy-bank icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="d-flex flex-column text-dark-75">
-													<span class="font-weight-bolder font-size-sm">Earnings</span>
-													<span class="font-weight-bolder font-size-h5">
-													<span class="text-dark-50 font-weight-bold">$</span>249,500</span>
-												</div>
-											</div>
-											<!--end: Item-->
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
-												<span class="mr-4">
-													<i class="flaticon-confetti icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="d-flex flex-column text-dark-75">
-													<span class="font-weight-bolder font-size-sm">Expenses</span>
-													<span class="font-weight-bolder font-size-h5">
-													<span class="text-dark-50 font-weight-bold">$</span>164,700</span>
-												</div>
-											</div>
-											<!--end: Item-->
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
-												<span class="mr-4">
-													<i class="flaticon-pie-chart icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="d-flex flex-column text-dark-75">
-													<span class="font-weight-bolder font-size-sm">Net</span>
-													<span class="font-weight-bolder font-size-h5">
-													<span class="text-dark-50 font-weight-bold">$</span>782,300</span>
-												</div>
-											</div>
-											<!--end: Item-->
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
-												<span class="mr-4">
-													<i class="flaticon-file-2 icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="d-flex flex-column flex-lg-fill">
-													<span class="text-dark-75 font-weight-bolder font-size-sm">73 Tasks</span>
-													<a href="#" class="text-primary font-weight-bolder">View</a>
-												</div>
-											</div>
-											<!--end: Item-->
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill mr-5 my-1">
-												<span class="mr-4">
-													<i class="flaticon-chat-1 icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="d-flex flex-column">
-													<span class="text-dark-75 font-weight-bolder font-size-sm">648 Comments</span>
-													<a href="#" class="text-primary font-weight-bolder">View</a>
-												</div>
-											</div>
-											<!--end: Item-->
-											<!--begin: Item-->
-											<div class="d-flex align-items-center flex-lg-fill my-1">
-												<span class="mr-4">
-													<i class="flaticon-network icon-2x text-muted font-weight-bold"></i>
-												</span>
-												<div class="symbol-group symbol-hover">
-													<div class="symbol symbol-30 symbol-circle" data-toggle="tooltip" title="Mark Stone">
-														<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_25.jpg" />
-													</div>
-													<div class="symbol symbol-30 symbol-circle" data-toggle="tooltip" title="Charlie Stone">
-														<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_19.jpg" />
-													</div>
-													<div class="symbol symbol-30 symbol-circle" data-toggle="tooltip" title="Luca Doncic">
-														<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_22.jpg" />
-													</div>
-													<div class="symbol symbol-30 symbol-circle" data-toggle="tooltip" title="Nick Mana">
-														<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_23.jpg" />
-													</div>
-													<div class="symbol symbol-30 symbol-circle" data-toggle="tooltip" title="Teresa Fox">
-														<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_18.jpg" />
-													</div>
-													<div class="symbol symbol-30 symbol-circle symbol-light">
-														<span class="symbol-label font-weight-bold">5+</span>
-													</div>
-												</div>
-											</div>
-											<!--end: Item-->
-										</div>
-										<!--begin: Items-->
-									</div>
-								</div>
-								<!--end::Card-->
-								<!--begin::Card-->
-								<div class="card card-custom">
-									<!--begin::Header-->
-									<div class="card-header card-header-tabs-line">
-										<div class="card-toolbar">
-											<ul class="nav nav-tabs nav-tabs-space-lg nav-tabs-line nav-tabs-bold nav-tabs-line-3x" role="tablist">
-												<li class="nav-item mr-3">
-													<a class="nav-link active" data-toggle="tab" href="#kt_apps_projects_view_tab_2">
-														<span class="nav-icon mr-2">
-															<span class="svg-icon mr-3">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Chat-check.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M4.875,20.75 C4.63541667,20.75 4.39583333,20.6541667 4.20416667,20.4625 L2.2875,18.5458333 C1.90416667,18.1625 1.90416667,17.5875 2.2875,17.2041667 C2.67083333,16.8208333 3.29375,16.8208333 3.62916667,17.2041667 L4.875,18.45 L8.0375,15.2875 C8.42083333,14.9041667 8.99583333,14.9041667 9.37916667,15.2875 C9.7625,15.6708333 9.7625,16.2458333 9.37916667,16.6291667 L5.54583333,20.4625 C5.35416667,20.6541667 5.11458333,20.75 4.875,20.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
-																		<path d="M2,11.8650466 L2,6 C2,4.34314575 3.34314575,3 5,3 L19,3 C20.6568542,3 22,4.34314575 22,6 L22,15 C22,15.0032706 21.9999948,15.0065399 21.9999843,15.009808 L22.0249378,15 L22.0249378,19.5857864 C22.0249378,20.1380712 21.5772226,20.5857864 21.0249378,20.5857864 C20.7597213,20.5857864 20.5053674,20.4804296 20.317831,20.2928932 L18.0249378,18 L12.9835977,18 C12.7263047,14.0909841 9.47412135,11 5.5,11 C4.23590829,11 3.04485894,11.3127315 2,11.8650466 Z M6,7 C5.44771525,7 5,7.44771525 5,8 C5,8.55228475 5.44771525,9 6,9 L15,9 C15.5522847,9 16,8.55228475 16,8 C16,7.44771525 15.5522847,7 15,7 L6,7 Z" fill="#000000" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>
-														</span>
-														<span class="nav-text font-weight-bold">Project Details</span>
-													</a>
-												</li>
-												<li class="nav-item mr-3">
-													<a class="nav-link" data-toggle="tab" href="#kt_apps_projects_view_tab_3">
-														<span class="nav-icon mr-2">
-															<span class="svg-icon mr-3">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Devices/Display1.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M11,20 L11,17 C11,16.4477153 11.4477153,16 12,16 C12.5522847,16 13,16.4477153 13,17 L13,20 L15.5,20 C15.7761424,20 16,20.2238576 16,20.5 C16,20.7761424 15.7761424,21 15.5,21 L8.5,21 C8.22385763,21 8,20.7761424 8,20.5 C8,20.2238576 8.22385763,20 8.5,20 L11,20 Z" fill="#000000" opacity="0.3" />
-																		<path d="M3,5 L21,5 C21.5522847,5 22,5.44771525 22,6 L22,16 C22,16.5522847 21.5522847,17 21,17 L3,17 C2.44771525,17 2,16.5522847 2,16 L2,6 C2,5.44771525 2.44771525,5 3,5 Z M4.5,8 C4.22385763,8 4,8.22385763 4,8.5 C4,8.77614237 4.22385763,9 4.5,9 L13.5,9 C13.7761424,9 14,8.77614237 14,8.5 C14,8.22385763 13.7761424,8 13.5,8 L4.5,8 Z M4.5,10 C4.22385763,10 4,10.2238576 4,10.5 C4,10.7761424 4.22385763,11 4.5,11 L7.5,11 C7.77614237,11 8,10.7761424 8,10.5 C8,10.2238576 7.77614237,10 7.5,10 L4.5,10 Z" fill="#000000" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>
-														</span>
-														<span class="nav-text font-weight-bold">Access Control</span>
-													</a>
-												</li>
-												<li class="nav-item mr-3">
-													<a class="nav-link" data-toggle="tab" href="#kt_apps_projects_view_tab_4">
-														<span class="nav-icon mr-2">
-															<span class="svg-icon mr-3">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Home/Globe.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M13,18.9450712 L13,20 L14,20 C15.1045695,20 16,20.8954305 16,22 L8,22 C8,20.8954305 8.8954305,20 10,20 L11,20 L11,18.9448245 C9.02872877,18.7261967 7.20827378,17.866394 5.79372555,16.5182701 L4.73856106,17.6741866 C4.36621808,18.0820826 3.73370941,18.110904 3.32581341,17.7385611 C2.9179174,17.3662181 2.88909597,16.7337094 3.26143894,16.3258134 L5.04940685,14.367122 C5.46150313,13.9156769 6.17860937,13.9363085 6.56406875,14.4106998 C7.88623094,16.037907 9.86320756,17 12,17 C15.8659932,17 19,13.8659932 19,10 C19,7.73468744 17.9175842,5.65198725 16.1214335,4.34123851 C15.6753081,4.01567657 15.5775721,3.39010038 15.903134,2.94397499 C16.228696,2.49784959 16.8542722,2.4001136 17.3003976,2.72567554 C19.6071362,4.40902808 21,7.08906798 21,10 C21,14.6325537 17.4999505,18.4476269 13,18.9450712 Z" fill="#000000" fill-rule="nonzero" />
-																		<circle fill="#000000" opacity="0.3" cx="12" cy="10" r="6" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>
-														</span>
-														<span class="nav-text font-weight-bold">Settings</span>
-													</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link" data-toggle="tab" href="#kt_apps_projects_view_tab_1">
-														<span class="nav-icon mr-2">
-															<span class="svg-icon mr-3">
-																<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Notification2.svg-->
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																		<rect x="0" y="0" width="24" height="24" />
-																		<path d="M13.2070325,4 C13.0721672,4.47683179 13,4.97998812 13,5.5 C13,8.53756612 15.4624339,11 18.5,11 C19.0200119,11 19.5231682,10.9278328 20,10.7929675 L20,17 C20,18.6568542 18.6568542,20 17,20 L7,20 C5.34314575,20 4,18.6568542 4,17 L4,7 C4,5.34314575 5.34314575,4 7,4 L13.2070325,4 Z" fill="#000000" />
-																		<circle fill="#000000" opacity="0.3" cx="18.5" cy="5.5" r="2.5" />
-																	</g>
-																</svg>
-																<!--end::Svg Icon-->
-															</span>
-														</span>
-														<span class="nav-text font-weight-bold">Notes</span>
-													</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<!--end::Header-->
-									<!--begin::Body-->
-									<div class="card-body">
-										<div class="tab-content pt-5">
-											<!--begin::Tab Content-->
-											<div class="tab-pane active" id="kt_apps_projects_view_tab_2" role="tabpanel">
-												<form class="form">
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Project Info:</h3>
-														</div>
-													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Project Name</label>
-														<div class="col-lg-9 col-xl-6">
-															<input class="form-control form-control-lg form-control-solid" type="text" value="Nick" />
-														</div>
-													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Project Owner</label>
-														<div class="col-lg-9 col-xl-6">
-															<input class="form-control form-control-lg form-control-solid" type="text" value="Bold" />
-														</div>
-													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Customer Name</label>
-														<div class="col-lg-9 col-xl-6">
-															<input class="form-control form-control-lg form-control-solid" type="text" value="Loop Inc." />
-															<span class="form-text text-muted">If you want your invoices addressed to a company. Leave blank to use your full name.</span>
-														</div>
-													</div>
-													<div class="separator separator-dashed my-10"></div>
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Contact Info:</h3>
-														</div>
-													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Contact Phone</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="input-group input-group-lg input-group-solid">
-																<div class="input-group-prepend">
-																	<span class="input-group-text">
-																		<i class="la la-phone"></i>
-																	</span>
-																</div>
-																<input type="text" class="form-control form-control-lg form-control-solid" value="+35278953712" placeholder="Phone" />
-															</div>
-															<span class="form-text text-muted">We'll never share your email with anyone else.</span>
-														</div>
-													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Email Address</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="input-group input-group-lg input-group-solid">
-																<div class="input-group-prepend">
-																	<span class="input-group-text">
-																		<i class="la la-at"></i>
-																	</span>
-																</div>
-																<input type="text" class="form-control form-control-lg form-control-solid" value="nick.bold@loop.com" placeholder="Email" />
-															</div>
-														</div>
-													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Company Site</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="input-group input-group-lg input-group-solid">
-																<input type="text" class="form-control form-control-lg form-control-solid" placeholder="Username" value="loop" />
-																<div class="input-group-append">
-																	<span class="input-group-text">.com</span>
-																</div>
-															</div>
-														</div>
-													</div>
-												</form>
-											</div>
-											<!--end::Tab Content-->
-											<!--begin::Tab Content-->
-											<div class="tab-pane" id="kt_apps_projects_view_tab_3" role="tabpanel">
-												<form class="form">
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<!--begin::Notice-->
-															<div class="alert alert-custom alert-light-danger fade show mb-9" role="alert">
-																<div class="alert-icon">
-																	<i class="flaticon-warning"></i>
-																</div>
-																<div class="alert-text">Configure user passwords to expire periodically. 
-																<br />Users will need warning that their passwords are going to expire, or they might inadvertently get locked out of the system!</div>
-																<div class="alert-close">
-																	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-																		<span aria-hidden="true">
-																			<i class="ki ki-close"></i>
+								<!--begin::Profile Overview-->
+								<div class="d-flex flex-row">
+									<!--begin::Aside-->
+									<div class="flex-row-auto offcanvas-mobile w-300px w-xl-350px" id="kt_profile_aside">
+										<!--begin::Profile Card-->
+										<div class="card card-custom card-stretch">
+											<!--begin::Body-->
+											<div class="card-body pt-4">
+												<!--begin::Toolbar-->
+												<div class="d-flex justify-content-end">
+													<div class="dropdown dropdown-inline">
+														<a href="#" class="btn btn-clean btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+															<i class="ki ki-bold-more-hor"></i>
+														</a>
+														<div class="dropdown-menu dropdown-menu-sm dropdown-menu-right">
+															<!--begin::Navigation-->
+															<ul class="navi navi-hover py-5">
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-drop"></i>
 																		</span>
-																	</button>
-																</div>
-															</div>
-															<!--end::Notice-->
+																		<span class="navi-text">New Group</span>
+																	</a>
+																</li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-list-3"></i>
+																		</span>
+																		<span class="navi-text">Contacts</span>
+																	</a>
+																</li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-rocket-1"></i>
+																		</span>
+																		<span class="navi-text">Groups</span>
+																		<span class="navi-link-badge">
+																			<span class="label label-light-primary label-inline font-weight-bold">new</span>
+																		</span>
+																	</a>
+																</li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-bell-2"></i>
+																		</span>
+																		<span class="navi-text">Calls</span>
+																	</a>
+																</li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-gear"></i>
+																		</span>
+																		<span class="navi-text">Settings</span>
+																	</a>
+																</li>
+																<li class="navi-separator my-3"></li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-magnifier-tool"></i>
+																		</span>
+																		<span class="navi-text">Help</span>
+																	</a>
+																</li>
+																<li class="navi-item">
+																	<a href="#" class="navi-link">
+																		<span class="navi-icon">
+																			<i class="flaticon2-bell-2"></i>
+																		</span>
+																		<span class="navi-text">Privacy</span>
+																		<span class="navi-link-badge">
+																			<span class="label label-light-danger label-rounded font-weight-bold">5</span>
+																		</span>
+																	</a>
+																</li>
+															</ul>
+															<!--end::Navigation-->
 														</div>
 													</div>
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Account:</h3>
+												</div>
+												<!--end::Toolbar-->
+												<!--begin::User-->
+												<div class="d-flex align-items-center">
+													<div class="symbol symbol-60 symbol-xxl-100 mr-5 align-self-start align-self-xxl-center">
+														<div class="symbol-label" style="background-image:url('../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg')"></div>
+														<i class="symbol-badge bg-success"></i>
+													</div>
+													<div>
+														<a href="#" class="font-weight-bolder font-size-h5 text-dark-75 text-hover-primary">Ahsan Khan</a>
+														<div class="text-muted">Web Developer</div>
+														<div class="mt-2">
+															<a href="#" class="btn btn-sm btn-primary font-weight-bold mr-2 py-2 px-3 px-xxl-5 my-1">Chat</a>
+															<a href="#" class="btn btn-sm btn-success font-weight-bold py-2 px-3 px-xxl-5 my-1">Follow</a>
 														</div>
 													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Username</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="spinner spinner-sm spinner-success spinner-right">
-																<input class="form-control form-control-lg form-control-solid" type="text" value="nick84" />
-															</div>
-														</div>
+												</div>
+												<!--end::User-->
+												<!--begin::Contact-->
+												<div class="py-9">
+													<div class="d-flex align-items-center justify-content-between mb-2">
+														<span class="font-weight-bold mr-2">Email:</span>
+														<a href="#" class="text-muted text-hover-primary">matt@fifestudios.com</a>
 													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Email Address</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="input-group input-group-lg input-group-solid">
-																<div class="input-group-prepend">
-																	<span class="input-group-text">
-																		<i class="la la-at"></i>
-																	</span>
-																</div>
-																<input type="text" class="form-control form-control-lg form-control-solid" value="nick.watson@loop.com" placeholder="Email" />
-															</div>
-															<span class="form-text text-muted">Email will not be publicly displayed. 
-															<a href="#">Learn more</a>.</span>
-														</div>
+													<div class="d-flex align-items-center justify-content-between mb-2">
+														<span class="font-weight-bold mr-2">Phone:</span>
+														<span class="text-muted">44(76)34254578</span>
 													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Language</label>
-														<div class="col-lg-9 col-xl-6">
-															<select class="form-control form-control-lg form-control-solid">
-																<option>Select Language...</option>
-																<option value="id">Bahasa Indonesia - Indonesian</option>
-																<option value="msa">Bahasa Melayu - Malay</option>
-																<option value="ca">Català - Catalan</option>
-																<option value="cs">Čeština - Czech</option>
-																<option value="da">Dansk - Danish</option>
-																<option value="de">Deutsch - German</option>
-																<option value="en" selected="selected">English</option>
-																<option value="en-gb">English UK - British English</option>
-																<option value="es">Español - Spanish</option>
-																<option value="eu">Euskara - Basque (beta)</option>
-																<option value="fil">Filipino</option>
-																<option value="fr">Français - French</option>
-																<option value="ga">Gaeilge - Irish (beta)</option>
-																<option value="gl">Galego - Galician (beta)</option>
-																<option value="hr">Hrvatski - Croatian</option>
-																<option value="it">Italiano - Italian</option>
-																<option value="hu">Magyar - Hungarian</option>
-																<option value="nl">Nederlands - Dutch</option>
-																<option value="no">Norsk - Norwegian</option>
-																<option value="pl">Polski - Polish</option>
-																<option value="pt">Português - Portuguese</option>
-																<option value="ro">Română - Romanian</option>
-																<option value="sk">Slovenčina - Slovak</option>
-																<option value="fi">Suomi - Finnish</option>
-																<option value="sv">Svenska - Swedish</option>
-																<option value="vi">Tiếng Việt - Vietnamese</option>
-																<option value="tr">Türkçe - Turkish</option>
-																<option value="el">Ελληνικά - Greek</option>
-																<option value="bg">Български език - Bulgarian</option>
-																<option value="ru">Русский - Russian</option>
-																<option value="sr">Српски - Serbian</option>
-																<option value="uk">Українська мова - Ukrainian</option>
-																<option value="he">עִבְרִית - Hebrew</option>
-																<option value="ur">اردو - Urdu (beta)</option>
-																<option value="ar">العربية - Arabic</option>
-																<option value="fa">فارسی - Persian</option>
-																<option value="mr">मराठी - Marathi</option>
-																<option value="hi">हिन्दी - Hindi</option>
-																<option value="bn">বাংলা - Bangla</option>
-																<option value="gu">ગુજરાતી - Gujarati</option>
-																<option value="ta">தமிழ் - Tamil</option>
-																<option value="kn">ಕನ್ನಡ - Kannada</option>
-																<option value="th">ภาษาไทย - Thai</option>
-																<option value="ko">한국어 - Korean</option>
-																<option value="ja">日本語 - Japanese</option>
-																<option value="zh-cn">简体中文 - Simplified Chinese</option>
-																<option value="zh-tw">繁體中文 - Traditional Chinese</option>
-															</select>
-														</div>
+													<div class="d-flex align-items-center justify-content-between">
+														<span class="font-weight-bold mr-2">Location:</span>
+														<span class="text-muted">Melbourne</span>
 													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Time Zone</label>
-														<div class="col-lg-9 col-xl-6">
-															<select class="form-control form-control-lg form-control-solid">
-																<option data-offset="-39600" value="International Date Line West">(GMT-11:00) International Date Line West</option>
-																<option data-offset="-39600" value="Midway Island">(GMT-11:00) Midway Island</option>
-																<option data-offset="-39600" value="Samoa">(GMT-11:00) Samoa</option>
-																<option data-offset="-36000" value="Hawaii">(GMT-10:00) Hawaii</option>
-																<option data-offset="-28800" value="Alaska">(GMT-08:00) Alaska</option>
-																<option data-offset="-25200" value="Pacific Time (US &amp; Canada)">(GMT-07:00) Pacific Time (US &amp; Canada)</option>
-																<option data-offset="-25200" value="Tijuana">(GMT-07:00) Tijuana</option>
-																<option data-offset="-25200" value="Arizona">(GMT-07:00) Arizona</option>
-																<option data-offset="-21600" value="Mountain Time (US &amp; Canada)">(GMT-06:00) Mountain Time (US &amp; Canada)</option>
-																<option data-offset="-21600" value="Chihuahua">(GMT-06:00) Chihuahua</option>
-																<option data-offset="-21600" value="Mazatlan">(GMT-06:00) Mazatlan</option>
-																<option data-offset="-21600" value="Saskatchewan">(GMT-06:00) Saskatchewan</option>
-																<option data-offset="-21600" value="Central America">(GMT-06:00) Central America</option>
-																<option data-offset="-18000" value="Central Time (US &amp; Canada)">(GMT-05:00) Central Time (US &amp; Canada)</option>
-																<option data-offset="-18000" value="Guadalajara">(GMT-05:00) Guadalajara</option>
-																<option data-offset="-18000" value="Mexico City">(GMT-05:00) Mexico City</option>
-																<option data-offset="-18000" value="Monterrey">(GMT-05:00) Monterrey</option>
-																<option data-offset="-18000" value="Bogota">(GMT-05:00) Bogota</option>
-																<option data-offset="-18000" value="Lima">(GMT-05:00) Lima</option>
-																<option data-offset="-18000" value="Quito">(GMT-05:00) Quito</option>
-																<option data-offset="-14400" value="Eastern Time (US &amp; Canada)">(GMT-04:00) Eastern Time (US &amp; Canada)</option>
-																<option data-offset="-14400" value="Indiana (East)">(GMT-04:00) Indiana (East)</option>
-																<option data-offset="-14400" value="Caracas">(GMT-04:00) Caracas</option>
-																<option data-offset="-14400" value="La Paz">(GMT-04:00) La Paz</option>
-																<option data-offset="-14400" value="Georgetown">(GMT-04:00) Georgetown</option>
-																<option data-offset="-10800" value="Atlantic Time (Canada)">(GMT-03:00) Atlantic Time (Canada)</option>
-																<option data-offset="-10800" value="Santiago">(GMT-03:00) Santiago</option>
-																<option data-offset="-10800" value="Brasilia">(GMT-03:00) Brasilia</option>
-																<option data-offset="-10800" value="Buenos Aires">(GMT-03:00) Buenos Aires</option>
-																<option data-offset="-9000" value="Newfoundland">(GMT-02:30) Newfoundland</option>
-																<option data-offset="-7200" value="Greenland">(GMT-02:00) Greenland</option>
-																<option data-offset="-7200" value="Mid-Atlantic">(GMT-02:00) Mid-Atlantic</option>
-																<option data-offset="-3600" value="Cape Verde Is.">(GMT-01:00) Cape Verde Is.</option>
-																<option data-offset="0" value="Azores">(GMT) Azores</option>
-																<option data-offset="0" value="Monrovia">(GMT) Monrovia</option>
-																<option data-offset="0" value="UTC">(GMT) UTC</option>
-																<option data-offset="3600" value="Dublin">(GMT+01:00) Dublin</option>
-																<option data-offset="3600" value="Edinburgh">(GMT+01:00) Edinburgh</option>
-																<option data-offset="3600" value="Lisbon">(GMT+01:00) Lisbon</option>
-																<option data-offset="3600" value="London">(GMT+01:00) London</option>
-																<option data-offset="3600" value="Casablanca">(GMT+01:00) Casablanca</option>
-																<option data-offset="3600" value="West Central Africa">(GMT+01:00) West Central Africa</option>
-																<option data-offset="7200" value="Belgrade">(GMT+02:00) Belgrade</option>
-																<option data-offset="7200" value="Bratislava">(GMT+02:00) Bratislava</option>
-																<option data-offset="7200" value="Budapest">(GMT+02:00) Budapest</option>
-																<option data-offset="7200" value="Ljubljana">(GMT+02:00) Ljubljana</option>
-																<option data-offset="7200" value="Prague">(GMT+02:00) Prague</option>
-																<option data-offset="7200" value="Sarajevo">(GMT+02:00) Sarajevo</option>
-																<option data-offset="7200" value="Skopje">(GMT+02:00) Skopje</option>
-																<option data-offset="7200" value="Warsaw">(GMT+02:00) Warsaw</option>
-																<option data-offset="7200" value="Zagreb">(GMT+02:00) Zagreb</option>
-																<option data-offset="7200" value="Brussels">(GMT+02:00) Brussels</option>
-																<option data-offset="7200" value="Copenhagen">(GMT+02:00) Copenhagen</option>
-																<option data-offset="7200" value="Madrid">(GMT+02:00) Madrid</option>
-																<option data-offset="7200" value="Paris">(GMT+02:00) Paris</option>
-																<option data-offset="7200" value="Amsterdam">(GMT+02:00) Amsterdam</option>
-																<option data-offset="7200" value="Berlin">(GMT+02:00) Berlin</option>
-																<option data-offset="7200" value="Bern">(GMT+02:00) Bern</option>
-																<option data-offset="7200" value="Rome">(GMT+02:00) Rome</option>
-																<option data-offset="7200" value="Stockholm">(GMT+02:00) Stockholm</option>
-																<option data-offset="7200" value="Vienna">(GMT+02:00) Vienna</option>
-																<option data-offset="7200" value="Cairo">(GMT+02:00) Cairo</option>
-																<option data-offset="7200" value="Harare">(GMT+02:00) Harare</option>
-																<option data-offset="7200" value="Pretoria">(GMT+02:00) Pretoria</option>
-																<option data-offset="10800" value="Bucharest">(GMT+03:00) Bucharest</option>
-																<option data-offset="10800" value="Helsinki">(GMT+03:00) Helsinki</option>
-																<option data-offset="10800" value="Kiev">(GMT+03:00) Kiev</option>
-																<option data-offset="10800" value="Kyiv">(GMT+03:00) Kyiv</option>
-																<option data-offset="10800" value="Riga">(GMT+03:00) Riga</option>
-																<option data-offset="10800" value="Sofia">(GMT+03:00) Sofia</option>
-																<option data-offset="10800" value="Tallinn">(GMT+03:00) Tallinn</option>
-																<option data-offset="10800" value="Vilnius">(GMT+03:00) Vilnius</option>
-																<option data-offset="10800" value="Athens">(GMT+03:00) Athens</option>
-																<option data-offset="10800" value="Istanbul">(GMT+03:00) Istanbul</option>
-																<option data-offset="10800" value="Minsk">(GMT+03:00) Minsk</option>
-																<option data-offset="10800" value="Jerusalem">(GMT+03:00) Jerusalem</option>
-																<option data-offset="10800" value="Moscow">(GMT+03:00) Moscow</option>
-																<option data-offset="10800" value="St. Petersburg">(GMT+03:00) St. Petersburg</option>
-																<option data-offset="10800" value="Volgograd">(GMT+03:00) Volgograd</option>
-																<option data-offset="10800" value="Kuwait">(GMT+03:00) Kuwait</option>
-																<option data-offset="10800" value="Riyadh">(GMT+03:00) Riyadh</option>
-																<option data-offset="10800" value="Nairobi">(GMT+03:00) Nairobi</option>
-																<option data-offset="10800" value="Baghdad">(GMT+03:00) Baghdad</option>
-																<option data-offset="14400" value="Abu Dhabi">(GMT+04:00) Abu Dhabi</option>
-																<option data-offset="14400" value="Muscat">(GMT+04:00) Muscat</option>
-																<option data-offset="14400" value="Baku">(GMT+04:00) Baku</option>
-																<option data-offset="14400" value="Tbilisi">(GMT+04:00) Tbilisi</option>
-																<option data-offset="14400" value="Yerevan">(GMT+04:00) Yerevan</option>
-																<option data-offset="16200" value="Tehran">(GMT+04:30) Tehran</option>
-																<option data-offset="16200" value="Kabul">(GMT+04:30) Kabul</option>
-																<option data-offset="18000" value="Ekaterinburg">(GMT+05:00) Ekaterinburg</option>
-																<option data-offset="18000" value="Islamabad">(GMT+05:00) Islamabad</option>
-																<option data-offset="18000" value="Karachi">(GMT+05:00) Karachi</option>
-																<option data-offset="18000" value="Tashkent">(GMT+05:00) Tashkent</option>
-																<option data-offset="19800" value="Chennai">(GMT+05:30) Chennai</option>
-																<option data-offset="19800" value="Kolkata">(GMT+05:30) Kolkata</option>
-																<option data-offset="19800" value="Mumbai">(GMT+05:30) Mumbai</option>
-																<option data-offset="19800" value="New Delhi">(GMT+05:30) New Delhi</option>
-																<option data-offset="19800" value="Sri Jayawardenepura">(GMT+05:30) Sri Jayawardenepura</option>
-																<option data-offset="20700" value="Kathmandu">(GMT+05:45) Kathmandu</option>
-																<option data-offset="21600" value="Astana">(GMT+06:00) Astana</option>
-																<option data-offset="21600" value="Dhaka">(GMT+06:00) Dhaka</option>
-																<option data-offset="21600" value="Almaty">(GMT+06:00) Almaty</option>
-																<option data-offset="21600" value="Urumqi">(GMT+06:00) Urumqi</option>
-																<option data-offset="23400" value="Rangoon">(GMT+06:30) Rangoon</option>
-																<option data-offset="25200" value="Novosibirsk">(GMT+07:00) Novosibirsk</option>
-																<option data-offset="25200" value="Bangkok">(GMT+07:00) Bangkok</option>
-																<option data-offset="25200" value="Hanoi">(GMT+07:00) Hanoi</option>
-																<option data-offset="25200" value="Jakarta">(GMT+07:00) Jakarta</option>
-																<option data-offset="25200" value="Krasnoyarsk">(GMT+07:00) Krasnoyarsk</option>
-																<option data-offset="28800" value="Beijing">(GMT+08:00) Beijing</option>
-																<option data-offset="28800" value="Chongqing">(GMT+08:00) Chongqing</option>
-																<option data-offset="28800" value="Hong Kong">(GMT+08:00) Hong Kong</option>
-																<option data-offset="28800" value="Kuala Lumpur">(GMT+08:00) Kuala Lumpur</option>
-																<option data-offset="28800" value="Singapore">(GMT+08:00) Singapore</option>
-																<option data-offset="28800" value="Taipei">(GMT+08:00) Taipei</option>
-																<option data-offset="28800" value="Perth">(GMT+08:00) Perth</option>
-																<option data-offset="28800" value="Irkutsk">(GMT+08:00) Irkutsk</option>
-																<option data-offset="28800" value="Ulaan Bataar">(GMT+08:00) Ulaan Bataar</option>
-																<option data-offset="32400" value="Seoul">(GMT+09:00) Seoul</option>
-																<option data-offset="32400" value="Osaka">(GMT+09:00) Osaka</option>
-																<option data-offset="32400" value="Sapporo">(GMT+09:00) Sapporo</option>
-																<option data-offset="32400" value="Tokyo">(GMT+09:00) Tokyo</option>
-																<option data-offset="32400" value="Yakutsk">(GMT+09:00) Yakutsk</option>
-																<option data-offset="34200" value="Darwin">(GMT+09:30) Darwin</option>
-																<option data-offset="34200" value="Adelaide">(GMT+09:30) Adelaide</option>
-																<option data-offset="36000" value="Canberra">(GMT+10:00) Canberra</option>
-																<option data-offset="36000" value="Melbourne">(GMT+10:00) Melbourne</option>
-																<option data-offset="36000" value="Sydney">(GMT+10:00) Sydney</option>
-																<option data-offset="36000" value="Brisbane">(GMT+10:00) Brisbane</option>
-																<option data-offset="36000" value="Hobart">(GMT+10:00) Hobart</option>
-																<option data-offset="36000" value="Vladivostok">(GMT+10:00) Vladivostok</option>
-																<option data-offset="36000" value="Guam">(GMT+10:00) Guam</option>
-																<option data-offset="36000" value="Port Moresby">(GMT+10:00) Port Moresby</option>
-																<option data-offset="36000" value="Solomon Is.">(GMT+10:00) Solomon Is.</option>
-																<option data-offset="39600" value="Magadan">(GMT+11:00) Magadan</option>
-																<option data-offset="39600" value="New Caledonia">(GMT+11:00) New Caledonia</option>
-																<option data-offset="43200" value="Fiji">(GMT+12:00) Fiji</option>
-																<option data-offset="43200" value="Kamchatka">(GMT+12:00) Kamchatka</option>
-																<option data-offset="43200" value="Marshall Is.">(GMT+12:00) Marshall Is.</option>
-																<option data-offset="43200" value="Auckland">(GMT+12:00) Auckland</option>
-																<option data-offset="43200" value="Wellington">(GMT+12:00) Wellington</option>
-																<option data-offset="46800" value="Nuku'alofa">(GMT+13:00) Nuku'alofa</option>
-															</select>
-														</div>
+												</div>
+												<!--end::Contact-->
+												<!--begin::Nav-->
+												<div class="navi navi-bold navi-hover navi-active navi-link-rounded">
+													<div class="navi-item mb-2">
+														<a href="overview.html" class="navi-link py-4 active">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Design/Layers.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<polygon points="0 0 24 0 24 24 0 24" />
+																			<path d="M12.9336061,16.072447 L19.36,10.9564761 L19.5181585,10.8312381 C20.1676248,10.3169571 20.2772143,9.3735535 19.7629333,8.72408713 C19.6917232,8.63415859 19.6104327,8.55269514 19.5206557,8.48129411 L12.9336854,3.24257445 C12.3871201,2.80788259 11.6128799,2.80788259 11.0663146,3.24257445 L4.47482784,8.48488609 C3.82645598,9.00054628 3.71887192,9.94418071 4.23453211,10.5925526 C4.30500305,10.6811601 4.38527899,10.7615046 4.47382636,10.8320511 L4.63,10.9564761 L11.0659024,16.0730648 C11.6126744,16.5077525 12.3871218,16.5074963 12.9336061,16.072447 Z" fill="#000000" fill-rule="nonzero" />
+																			<path d="M11.0563554,18.6706981 L5.33593024,14.122919 C4.94553994,13.8125559 4.37746707,13.8774308 4.06710397,14.2678211 C4.06471678,14.2708238 4.06234874,14.2738418 4.06,14.2768747 L4.06,14.2768747 C3.75257288,14.6738539 3.82516916,15.244888 4.22214834,15.5523151 C4.22358765,15.5534297 4.2250303,15.55454 4.22647627,15.555646 L11.0872776,20.8031356 C11.6250734,21.2144692 12.371757,21.2145375 12.909628,20.8033023 L19.7677785,15.559828 C20.1693192,15.2528257 20.2459576,14.6784381 19.9389553,14.2768974 C19.9376429,14.2751809 19.9363245,14.2734691 19.935,14.2717619 L19.935,14.2717619 C19.6266937,13.8743807 19.0546209,13.8021712 18.6572397,14.1104775 C18.654352,14.112718 18.6514778,14.1149757 18.6486172,14.1172508 L12.9235044,18.6705218 C12.377022,19.1051477 11.6029199,19.1052208 11.0563554,18.6706981 Z" fill="#000000" opacity="0.3" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Profile Overview</span>
+														</a>
 													</div>
-													<div class="form-group row align-items-center mb-0">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Communication</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="checkbox-inline">
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>Email</label>
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>SMS</label>
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>Phone</label>
-															</div>
-														</div>
+													<div class="navi-item mb-2">
+														<a href="personal-information.html" class="navi-link py-4">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/User.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<polygon points="0 0 24 0 24 24 0 24" />
+																			<path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																			<path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="#000000" fill-rule="nonzero" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Personal Information</span>
+														</a>
 													</div>
-													<div class="separator separator-dashed my-10"></div>
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Security:</h3>
-														</div>
+													<div class="navi-item mb-2">
+														<a href="account-information.html" class="navi-link py-4">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Code/Compiling.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<rect x="0" y="0" width="24" height="24" />
+																			<path d="M2.56066017,10.6819805 L4.68198052,8.56066017 C5.26776695,7.97487373 6.21751442,7.97487373 6.80330086,8.56066017 L8.9246212,10.6819805 C9.51040764,11.267767 9.51040764,12.2175144 8.9246212,12.8033009 L6.80330086,14.9246212 C6.21751442,15.5104076 5.26776695,15.5104076 4.68198052,14.9246212 L2.56066017,12.8033009 C1.97487373,12.2175144 1.97487373,11.267767 2.56066017,10.6819805 Z M14.5606602,10.6819805 L16.6819805,8.56066017 C17.267767,7.97487373 18.2175144,7.97487373 18.8033009,8.56066017 L20.9246212,10.6819805 C21.5104076,11.267767 21.5104076,12.2175144 20.9246212,12.8033009 L18.8033009,14.9246212 C18.2175144,15.5104076 17.267767,15.5104076 16.6819805,14.9246212 L14.5606602,12.8033009 C13.9748737,12.2175144 13.9748737,11.267767 14.5606602,10.6819805 Z" fill="#000000" opacity="0.3" />
+																			<path d="M8.56066017,16.6819805 L10.6819805,14.5606602 C11.267767,13.9748737 12.2175144,13.9748737 12.8033009,14.5606602 L14.9246212,16.6819805 C15.5104076,17.267767 15.5104076,18.2175144 14.9246212,18.8033009 L12.8033009,20.9246212 C12.2175144,21.5104076 11.267767,21.5104076 10.6819805,20.9246212 L8.56066017,18.8033009 C7.97487373,18.2175144 7.97487373,17.267767 8.56066017,16.6819805 Z M8.56066017,4.68198052 L10.6819805,2.56066017 C11.267767,1.97487373 12.2175144,1.97487373 12.8033009,2.56066017 L14.9246212,4.68198052 C15.5104076,5.26776695 15.5104076,6.21751442 14.9246212,6.80330086 L12.8033009,8.9246212 C12.2175144,9.51040764 11.267767,9.51040764 10.6819805,8.9246212 L8.56066017,6.80330086 C7.97487373,6.21751442 7.97487373,5.26776695 8.56066017,4.68198052 Z" fill="#000000" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Account Information</span>
+														</a>
 													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Login verification</label>
-														<div class="col-lg-9 col-xl-6">
-															<button type="button" class="btn btn-light-primary font-weight-bold btn-sm">Setup login verification</button>
-															<span class="form-text text-muted">After you log in, you will be asked for additional information to confirm your identity and protect your account from being compromised. 
-															<a href="#">Learn more</a>.</span>
-														</div>
+													<div class="navi-item mb-2">
+														<a href="change-password.html" class="navi-link py-4">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Shield-user.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<rect x="0" y="0" width="24" height="24" />
+																			<path d="M4,4 L11.6314229,2.5691082 C11.8750185,2.52343403 12.1249815,2.52343403 12.3685771,2.5691082 L20,4 L20,13.2830094 C20,16.2173861 18.4883464,18.9447835 16,20.5 L12.5299989,22.6687507 C12.2057287,22.8714196 11.7942713,22.8714196 11.4700011,22.6687507 L8,20.5 C5.51165358,18.9447835 4,16.2173861 4,13.2830094 L4,4 Z" fill="#000000" opacity="0.3" />
+																			<path d="M12,11 C10.8954305,11 10,10.1045695 10,9 C10,7.8954305 10.8954305,7 12,7 C13.1045695,7 14,7.8954305 14,9 C14,10.1045695 13.1045695,11 12,11 Z" fill="#000000" opacity="0.3" />
+																			<path d="M7.00036205,16.4995035 C7.21569918,13.5165724 9.36772908,12 11.9907452,12 C14.6506758,12 16.8360465,13.4332455 16.9988413,16.5 C17.0053266,16.6221713 16.9988413,17 16.5815,17 C14.5228466,17 11.463736,17 7.4041679,17 C7.26484009,17 6.98863236,16.6619875 7.00036205,16.4995035 Z" fill="#000000" opacity="0.3" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Change Passwort</span>
+															<span class="navi-label">
+																<span class="label label-light-danger label-rounded font-weight-bold">5</span>
+															</span>
+														</a>
 													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Password reset verification</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="checkbox-inline">
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>Require personal information to reset your password</label>
-															</div>
-															<span class="form-text text-muted">For extra security, this requires you to confirm your email or phone number when you reset your password. 
-															<a href="#">Learn more</a>.</span>
-														</div>
+													<div class="navi-item mb-2">
+														<a href="email-settings.html" class="navi-link py-4">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Mail-opened.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<rect x="0" y="0" width="24" height="24" />
+																			<path d="M6,2 L18,2 C18.5522847,2 19,2.44771525 19,3 L19,12 C19,12.5522847 18.5522847,13 18,13 L6,13 C5.44771525,13 5,12.5522847 5,12 L5,3 C5,2.44771525 5.44771525,2 6,2 Z M7.5,5 C7.22385763,5 7,5.22385763 7,5.5 C7,5.77614237 7.22385763,6 7.5,6 L13.5,6 C13.7761424,6 14,5.77614237 14,5.5 C14,5.22385763 13.7761424,5 13.5,5 L7.5,5 Z M7.5,7 C7.22385763,7 7,7.22385763 7,7.5 C7,7.77614237 7.22385763,8 7.5,8 L10.5,8 C10.7761424,8 11,7.77614237 11,7.5 C11,7.22385763 10.7761424,7 10.5,7 L7.5,7 Z" fill="#000000" opacity="0.3" />
+																			<path d="M3.79274528,6.57253826 L12,12.5 L20.2072547,6.57253826 C20.4311176,6.4108595 20.7436609,6.46126971 20.9053396,6.68513259 C20.9668779,6.77033951 21,6.87277228 21,6.97787787 L21,17 C21,18.1045695 20.1045695,19 19,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,6.97787787 C3,6.70173549 3.22385763,6.47787787 3.5,6.47787787 C3.60510559,6.47787787 3.70753836,6.51099993 3.79274528,6.57253826 Z" fill="#000000" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Email settings</span>
+														</a>
 													</div>
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right"></label>
-														<div class="col-lg-9 col-xl-6">
-															<button type="button" class="btn btn-light-danger font-weight-bold btn-sm">Deactivate your account ?</button>
-														</div>
+													<div class="navi-item mb-2">
+														<a href="#" class="navi-link py-4" data-toggle="tooltip" title="Coming soon..." data-placement="right">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Layout/Layout-top-panel-6.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<rect x="0" y="0" width="24" height="24" />
+																			<rect fill="#000000" x="2" y="5" width="19" height="4" rx="1" />
+																			<rect fill="#000000" opacity="0.3" x="2" y="11" width="19" height="10" rx="1" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Saved Credit Cards</span>
+														</a>
 													</div>
-												</form>
+													<div class="navi-item mb-2">
+														<a href="#" class="navi-link py-4" data-toggle="tooltip" title="Coming soon..." data-placement="right">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Files/File.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<polygon points="0 0 24 0 24 24 0 24" />
+																			<path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																			<rect fill="#000000" x="6" y="11" width="9" height="2" rx="1" />
+																			<rect fill="#000000" x="6" y="15" width="5" height="2" rx="1" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text font-size-lg">Tax information</span>
+															<span class="navi-label">
+																<span class="label label-light-primary label-inline font-weight-bold">new</span>
+															</span>
+														</a>
+													</div>
+													<div class="navi-item mb-2">
+														<a href="#" class="navi-link py-4" data-toggle="tooltip" title="Coming soon..." data-placement="right">
+															<span class="navi-icon mr-2">
+																<span class="svg-icon">
+																	<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Text/Article.svg-->
+																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																			<rect x="0" y="0" width="24" height="24" />
+																			<rect fill="#000000" x="4" y="5" width="16" height="3" rx="1.5" />
+																			<path d="M5.5,15 L18.5,15 C19.3284271,15 20,15.6715729 20,16.5 C20,17.3284271 19.3284271,18 18.5,18 L5.5,18 C4.67157288,18 4,17.3284271 4,16.5 C4,15.6715729 4.67157288,15 5.5,15 Z M5.5,10 L12.5,10 C13.3284271,10 14,10.6715729 14,11.5 C14,12.3284271 13.3284271,13 12.5,13 L5.5,13 C4.67157288,13 4,12.3284271 4,11.5 C4,10.6715729 4.67157288,10 5.5,10 Z" fill="#000000" opacity="0.3" />
+																		</g>
+																	</svg>
+																	<!--end::Svg Icon-->
+																</span>
+															</span>
+															<span class="navi-text">Statements</span>
+														</a>
+													</div>
+												</div>
+												<!--end::Nav-->
 											</div>
-											<!--end::Tab Content-->
-											<!--begin::Tab Content-->
-											<div class="tab-pane" id="kt_apps_projects_view_tab_4" role="tabpanel">
-												<form class="form">
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Setup Email Notification:</h3>
+											<!--end::Body-->
+										</div>
+										<!--end::Profile Card-->
+									</div>
+									<!--end::Aside-->
+									<!--begin::Content-->
+									<div class="flex-row-fluid ml-lg-8">
+										<!--begin::Row-->
+										<div class="row">
+											<div class="col-lg-6">
+												<!--begin::List Widget 14-->
+												<div class="card card-custom card-stretch gutter-b">
+													<!--begin::Header-->
+													<div class="card-header border-0">
+														<h3 class="card-title font-weight-bolder text-dark">Market Leaders</h3>
+														<div class="card-toolbar">
+															<div class="dropdown dropdown-inline">
+																<a href="#" class="btn btn-clean btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	<i class="ki ki-bold-more-ver"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+																	<!--begin::Navigation-->
+																	<ul class="navi navi-hover">
+																		<li class="navi-header font-weight-bold py-4">
+																			<span class="font-size-lg">Choose Label:</span>
+																			<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
+																		</li>
+																		<li class="navi-separator mb-3 opacity-70"></li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-text">
+																					<span class="label label-xl label-inline label-light-success">Customer</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-text">
+																					<span class="label label-xl label-inline label-light-danger">Partner</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-text">
+																					<span class="label label-xl label-inline label-light-warning">Suplier</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-text">
+																					<span class="label label-xl label-inline label-light-primary">Member</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-text">
+																					<span class="label label-xl label-inline label-light-dark">Staff</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-separator mt-3 opacity-70"></li>
+																		<li class="navi-footer py-4">
+																			<a class="btn btn-clean font-weight-bold btn-sm" href="#">
+																			<i class="ki ki-plus icon-sm"></i>Add new</a>
+																		</li>
+																	</ul>
+																	<!--end::Navigation-->
+																</div>
+															</div>
 														</div>
 													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Email Notification</label>
-														<div class="col-lg-9 col-xl-6">
-															<span class="switch">
-																<label>
-																	<input type="checkbox" checked="checked" name="email_notification_1" />
+													<!--end::Header-->
+													<!--begin::Body-->
+													<div class="card-body pt-2">
+														<!--begin::Item-->
+														<div class="d-flex flex-wrap align-items-center mb-10">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-60 symbol-2by3 flex-shrink-0 mr-4">
+																<div class="symbol-label" style="background-image: url('../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-17.jpg')"></div>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Title-->
+															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
+																<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Cup &amp; Green</a>
+																<span class="text-muted font-weight-bold font-size-sm my-1">Local, clean &amp; environmental</span>
+																<span class="text-muted font-weight-bold font-size-sm">Created by: 
+																<span class="text-primary font-weight-bold">CoreAd</span></span>
+															</div>
+															<!--end::Title-->
+															<!--begin::Info-->
+															<div class="d-flex align-items-center py-lg-0 py-2">
+																<div class="d-flex flex-column text-right">
+																	<span class="text-dark-75 font-weight-bolder font-size-h4">24,900</span>
+																	<span class="text-muted font-size-sm font-weight-bolder">votes</span>
+																</div>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::Item-->
+														<!--begin: Item-->
+														<div class="d-flex flex-wrap align-items-center mb-10">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-60 symbol-2by3 flex-shrink-0 mr-4">
+																<div class="symbol-label" style="background-image: url('../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-10.jpg')"></div>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Title-->
+															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
+																<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Yellow Background</a>
+																<span class="text-muted font-weight-bold font-size-sm my-1">Strong abstract concept</span>
+																<span class="text-muted font-weight-bold font-size-sm">Created by: 
+																<span class="text-primary font-weight-bold">KeenThemes</span></span>
+															</div>
+															<!--end::Title-->
+															<!--begin::Info-->
+															<div class="d-flex align-items-center py-lg-0 py-2">
+																<div class="d-flex flex-column text-right">
+																	<span class="text-dark-75 font-weight-bolder font-size-h4">70,380</span>
+																	<span class="text-muted font-weight-bolder font-size-sm">votes</span>
+																</div>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end: Item-->
+														<!--begin::Item-->
+														<div class="d-flex flex-wrap align-items-center mb-10">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-60 symbol-2by3 flex-shrink-0 mr-4">
+																<div class="symbol-label" style="background-image: url('../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-1.jpg')"></div>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Title-->
+															<div class="d-flex flex-column flex-grow-1 pr-3">
+																<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Nike &amp; Blue</a>
+																<span class="text-muted font-weight-bold font-size-sm my-1">Footwear overalls</span>
+																<span class="text-muted font-weight-bold font-size-sm">Created by: 
+																<span class="text-primary font-weight-bold">Invision Inc.</span></span>
+															</div>
+															<!--end::Title-->
+															<!--begin::Info-->
+															<div class="d-flex align-items-center py-lg-0 py-2">
+																<div class="d-flex flex-column text-right">
+																	<span class="text-dark-75 font-size-h4 font-weight-bolder">7,200</span>
+																	<span class="text-muted font-size-sm font-weight-bolder">votes</span>
+																</div>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="d-flex flex-wrap align-items-center mb-10">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-60 symbol-2by3 flex-shrink-0 mr-4">
+																<div class="symbol-label" style="background-image: url('../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-9.jpg')"></div>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Title-->
+															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
+																<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Desserts platter</a>
+																<span class="text-muted font-size-sm font-weight-bold my-1">Food trends &amp; reviews</span>
+																<span class="text-muted font-size-sm font-weight-bold">Created by: 
+																<span class="text-primary font-weight-bold">Figma Studio</span></span>
+															</div>
+															<!--end::Title-->
+															<!--begin::Info-->
+															<div class="d-flex align-items-center py-lg-0 py-2">
+																<div class="d-flex flex-column text-right">
+																	<span class="text-dark-75 font-size-h4 font-weight-bolder">36,450</span>
+																	<span class="text-muted font-size-sm font-weight-bolder">votes</span>
+																</div>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="d-flex flex-wrap align-items-center">
+															<!--begin::Symbol-->
+															<div class="symbol symbol-60 symbol-2by3 flex-shrink-0 mr-4">
+																<div class="symbol-label" style="background-image: url('../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-12.jpg')"></div>
+															</div>
+															<!--end::Symbol-->
+															<!--begin::Title-->
+															<div class="d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3">
+																<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary font-size-lg">Cup &amp; Green</a>
+																<span class="text-muted font-weight-bold font-size-sm my-1">Local, clean &amp; environmental</span>
+																<span class="text-muted font-weight-bold font-size-sm">Created by: 
+																<span class="text-primary font-weight-bold">CoreAd</span></span>
+															</div>
+															<!--end::Title-->
+															<!--begin::Info-->
+															<div class="d-flex align-items-center py-lg-0 py-2">
+																<div class="d-flex flex-column text-right">
+																	<span class="text-dark-75 font-weight-bolder font-size-h4">23,900</span>
+																	<span class="text-muted font-size-sm font-weight-bolder">votes</span>
+																</div>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::Item-->
+													</div>
+													<!--end::Body-->
+												</div>
+												<!--end::List Widget 14-->
+											</div>
+											<div class="col-lg-6">
+												<!--begin::List Widget 10-->
+												<div class="card card-custom card-stretch gutter-b">
+													<!--begin::Header-->
+													<div class="card-header border-0">
+														<h3 class="card-title font-weight-bolder text-dark">Notifications</h3>
+														<div class="card-toolbar">
+															<div class="dropdown dropdown-inline">
+																<a href="#" class="btn btn-clean btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+																	<i class="ki ki-bold-more-ver"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+																	<!--begin::Naviigation-->
+																	<ul class="navi">
+																		<li class="navi-header font-weight-bold py-5">
+																			<span class="font-size-lg">Add New:</span>
+																			<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
+																		</li>
+																		<li class="navi-separator mb-3 opacity-70"></li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-icon">
+																					<i class="flaticon2-shopping-cart-1"></i>
+																				</span>
+																				<span class="navi-text">Order</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-icon">
+																					<i class="navi-icon flaticon2-calendar-8"></i>
+																				</span>
+																				<span class="navi-text">Members</span>
+																				<span class="navi-label">
+																					<span class="label label-light-danger label-rounded font-weight-bold">3</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-icon">
+																					<i class="navi-icon flaticon2-telegram-logo"></i>
+																				</span>
+																				<span class="navi-text">Project</span>
+																			</a>
+																		</li>
+																		<li class="navi-item">
+																			<a href="#" class="navi-link">
+																				<span class="navi-icon">
+																					<i class="navi-icon flaticon2-new-email"></i>
+																				</span>
+																				<span class="navi-text">Record</span>
+																				<span class="navi-label">
+																					<span class="label label-light-success label-rounded font-weight-bold">5</span>
+																				</span>
+																			</a>
+																		</li>
+																		<li class="navi-separator mt-3 opacity-70"></li>
+																		<li class="navi-footer pt-5 pb-4">
+																			<a class="btn btn-light-primary font-weight-bolder btn-sm" href="#">More options</a>
+																			<a class="btn btn-clean font-weight-bold btn-sm d-none" href="#" data-toggle="tooltip" data-placement="right" title="Click to learn more...">Learn more</a>
+																		</li>
+																	</ul>
+																	<!--end::Naviigation-->
+																</div>
+															</div>
+														</div>
+													</div>
+													<!--end::Header-->
+													<!--begin::Body-->
+													<div class="card-body pt-0">
+														<!--begin::Item-->
+														<div class="mb-6">
+															<!--begin::Content-->
+															<div class="d-flex align-items-center flex-grow-1">
+																<!--begin::Checkbox-->
+																<label class="checkbox checkbox-lg checkbox-lg flex-shrink-0 mr-4">
+																	<input type="checkbox" value="1" />
 																	<span></span>
 																</label>
-															</span>
+																<!--end::Checkbox-->
+																<!--begin::Section-->
+																<div class="d-flex flex-wrap align-items-center justify-content-between w-100">
+																	<!--begin::Info-->
+																	<div class="d-flex flex-column align-items-cente py-2 w-75">
+																		<!--begin::Title-->
+																		<a href="#" class="text-dark-75 font-weight-bold text-hover-primary font-size-lg mb-1">Daily Standup Meeting</a>
+																		<!--end::Title-->
+																		<!--begin::Data-->
+																		<span class="text-muted font-weight-bold">Due in 2 Days</span>
+																		<!--end::Data-->
+																	</div>
+																	<!--end::Info-->
+																	<!--begin::Label-->
+																	<span class="label label-lg label-light-primary label-inline font-weight-bold py-4">Approved</span>
+																	<!--end::Label-->
+																</div>
+																<!--end::Section-->
+															</div>
+															<!--end::Content-->
 														</div>
-													</div>
-													<div class="form-group row mb-0">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Send Copy To Personal Email</label>
-														<div class="col-lg-9 col-xl-6">
-															<span class="switch">
-																<label>
-																	<input type="checkbox" name="email_notification_2" />
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="mb-6">
+															<!--begin::Content-->
+															<div class="d-flex align-items-center flex-grow-1">
+																<!--begin::Checkbox-->
+																<label class="checkbox checkbox-lg checkbox-lg flex-shrink-0 mr-4">
+																	<input type="checkbox" value="1" />
 																	<span></span>
 																</label>
-															</span>
-														</div>
-													</div>
-													<div class="separator separator-dashed my-10"></div>
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Activity Related Emails:</h3>
-														</div>
-													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">When To Email</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="checkbox-list">
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>You have new notifications</label>
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>You're sent a direct message</label>
-																<label class="checkbox">
-																<input type="checkbox" checked="checked" />
-																<span></span>Someone adds you as a connection</label>
+																<!--end::Checkbox-->
+																<!--begin::Section-->
+																<div class="d-flex flex-wrap align-items-center justify-content-between w-100">
+																	<!--begin::Info-->
+																	<div class="d-flex flex-column align-items-cente py-2 w-75">
+																		<!--begin::Title-->
+																		<a href="#" class="text-dark-75 font-weight-bold text-hover-primary font-size-lg mb-1">Group Town Hall Meet-up with showcase</a>
+																		<!--end::Title-->
+																		<!--begin::Data-->
+																		<span class="text-muted font-weight-bold">Due in 2 Days</span>
+																		<!--end::Data-->
+																	</div>
+																	<!--end::Info-->
+																	<!--begin::Label-->
+																	<span class="label label-lg label-light-warning label-inline font-weight-bold py-4">In Progress</span>
+																	<!--end::Label-->
+																</div>
+																<!--end::Section-->
 															</div>
+															<!--end::Content-->
 														</div>
-													</div>
-													<div class="form-group row mb-0">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">When To Escalate Emails</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="checkbox-list">
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>Upon new order</label>
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>New membership approval</label>
-																<label class="checkbox">
-																<input type="checkbox" checked="checked" />
-																<span></span>Member registration</label>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="mb-6">
+															<!--begin::Content-->
+															<div class="d-flex align-items-center flex-grow-1">
+																<!--begin::Checkbox-->
+																<label class="checkbox checkbox-lg checkbox-lg flex-shrink-0 mr-4">
+																	<input type="checkbox" value="1" />
+																	<span></span>
+																</label>
+																<!--end::Checkbox-->
+																<!--begin::Section-->
+																<div class="d-flex flex-wrap align-items-center justify-content-between w-100">
+																	<!--begin::Info-->
+																	<div class="d-flex flex-column align-items-cente py-2 w-75">
+																		<!--begin::Title-->
+																		<a href="#" class="text-dark-75 font-weight-bold text-hover-primary font-size-lg mb-1">Next sprint planning and estimations</a>
+																		<!--end::Title-->
+																		<!--begin::Data-->
+																		<span class="text-muted font-weight-bold">Due in 2 Days</span>
+																		<!--end::Data-->
+																	</div>
+																	<!--end::Info-->
+																	<!--begin::Label-->
+																	<span class="label label-lg label-light-success label-inline font-weight-bold py-4">Success</span>
+																	<!--end::Label-->
+																</div>
+																<!--end::Section-->
 															</div>
+															<!--end::Content-->
 														</div>
-													</div>
-													<div class="separator separator-dashed my-10"></div>
-													<!--begin::Heading-->
-													<div class="row">
-														<div class="col-lg-9 col-xl-6 offset-xl-3">
-															<h3 class="font-size-h6 mb-5">Updates From Keenthemes:</h3>
-														</div>
-													</div>
-													<!--end::Heading-->
-													<div class="form-group row">
-														<label class="col-xl-3 col-lg-3 col-form-label text-right">Email You With</label>
-														<div class="col-lg-9 col-xl-6">
-															<div class="checkbox-list">
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>News about Metronic product and feature updates</label>
-																<label class="checkbox">
-																<input type="checkbox" />
-																<span></span>Tips on getting more out of Keen</label>
-																<label class="checkbox">
-																<input type="checkbox" checked="checked" />
-																<span></span>Things you missed since you last logged into Keen</label>
-																<label class="checkbox">
-																<input type="checkbox" checked="checked" />
-																<span></span>News about Metronic on partner products and other services</label>
-																<label class="checkbox">
-																<input type="checkbox" checked="checked" />
-																<span></span>Tips on Metronic business products</label>
+														<!--end::Item-->
+														<!--begin::Item-->
+														<div class="mb-6">
+															<!--begin::Content-->
+															<div class="d-flex align-items-center flex-grow-1">
+																<!--begin::Checkbox-->
+																<label class="checkbox checkbox-lg checkbox-lg flex-shrink-0 mr-4">
+																	<input type="checkbox" value="1" />
+																	<span></span>
+																</label>
+																<!--end::Checkbox-->
+																<!--begin::Section-->
+																<div class="d-flex flex-wrap align-items-center justify-content-between w-100">
+																	<!--begin::Info-->
+																	<div class="d-flex flex-column align-items-cente py-2 w-75">
+																		<!--begin::Title-->
+																		<a href="#" class="text-dark-75 font-weight-bold text-hover-primary font-size-lg mb-1">Sprint delivery and project deployment</a>
+																		<!--end::Title-->
+																		<!--begin::Data-->
+																		<span class="text-muted font-weight-bold">Due in 2 Days</span>
+																		<!--end::Data-->
+																	</div>
+																	<!--end::Info-->
+																	<!--begin::Label-->
+																	<span class="label label-lg label-light-danger label-inline font-weight-bold py-4">Rejected</span>
+																	<!--end::Label-->
+																</div>
+																<!--end::Section-->
 															</div>
+															<!--end::Content-->
 														</div>
+														<!--end: Item-->
+														<!--begin: Item-->
+														<div class="">
+															<!--begin::Content-->
+															<div class="d-flex align-items-center flex-grow-1">
+																<!--begin::Checkbox-->
+																<label class="checkbox checkbox-lg checkbox-lg flex-shrink-0 mr-4">
+																	<input type="checkbox" value="1" />
+																	<span></span>
+																</label>
+																<!--end::Checkbox-->
+																<!--begin::Section-->
+																<div class="d-flex flex-wrap align-items-center justify-content-between w-100">
+																	<!--begin::Info-->
+																	<div class="d-flex flex-column align-items-cente py-2 w-75">
+																		<!--begin::Title-->
+																		<a href="#" class="text-dark-75 font-weight-bold text-hover-primary font-size-lg mb-1">Data analytics research showcase</a>
+																		<!--end::Title-->
+																		<!--begin::Data-->
+																		<span class="text-muted font-weight-bold">Due in 2 Days</span>
+																		<!--end::Data-->
+																	</div>
+																	<!--end::Info-->
+																	<!--begin::Label-->
+																	<span class="label label-lg label-light-warning label-inline font-weight-bold py-4">In Progress</span>
+																	<!--end::Label-->
+																</div>
+																<!--end::Section-->
+															</div>
+															<!--end::Content-->
+														</div>
+														<!--end: Item-->
 													</div>
-												</form>
+													<!--end: Card Body-->
+												</div>
+												<!--end: Card-->
+												<!--end: List Widget 10-->
 											</div>
-											<!--end::Tab Content-->
-											<!--begin::Tab Content-->
-											<div class="tab-pane" id="kt_apps_projects_view_tab_1" role="tabpanel">
-												<div class="container">
-													<form class="form">
-														<div class="form-group">
-															<textarea class="form-control form-control-lg form-control-solid" id="exampleTextarea" rows="3" placeholder="Type notes"></textarea>
-														</div>
-														<div class="row">
-															<div class="col">
-																<a href="#" class="btn btn-light-primary font-weight-bold">Add notes</a>
-																<a href="#" class="btn btn-clean font-weight-bold">Cancel</a>
-															</div>
-														</div>
-													</form>
-													<div class="separator separator-dashed my-10"></div>
-													<!--begin::Timeline-->
-													<div class="timeline timeline-3">
-														<div class="timeline-items">
-															<div class="timeline-item">
-																<div class="timeline-media">
-																	<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_25.jpg" />
-																</div>
-																<div class="timeline-content">
-																	<div class="d-flex align-items-center justify-content-between mb-3">
-																		<div class="mr-2">
-																			<a href="#" class="text-dark-75 text-hover-primary font-weight-bold">New order has been placed</a>
-																			<span class="text-muted ml-2">Today</span>
-																			<span class="label label-light-success font-weight-bolder label-inline ml-2">new</span>
-																		</div>
-																		<div class="dropdown ml-2" data-toggle="tooltip" title="Quick actions" data-placement="left">
-																			<a href="#" class="btn btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-																				<i class="ki ki-more-hor icon-md"></i>
-																			</a>
-																			<div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-																				<!--begin::Navigation-->
-																				<ul class="navi navi-hover">
-																					<li class="navi-header font-weight-bold py-4">
-																						<span class="font-size-lg">Choose Label:</span>
-																						<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-																					</li>
-																					<li class="navi-separator mb-3 opacity-70"></li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-success">Customer</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-danger">Partner</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-warning">Suplier</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-primary">Member</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-dark">Staff</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-separator mt-3 opacity-70"></li>
-																					<li class="navi-footer py-4">
-																						<a class="btn btn-clean font-weight-bold btn-sm" href="#">
-																						<i class="ki ki-plus icon-sm"></i>Add new</a>
-																					</li>
-																				</ul>
-																				<!--end::Navigation-->
-																			</div>
-																		</div>
-																	</div>
-																	<p class="p-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-																</div>
-															</div>
-															<div class="timeline-item">
-																<div class="timeline-media">
-																	<i class="flaticon2-shield text-danger"></i>
-																</div>
-																<div class="timeline-content">
-																	<div class="d-flex align-items-center justify-content-between mb-3">
-																		<div class="mr-2">
-																			<a href="#" class="text-dark-75 text-hover-primary font-weight-bold">Member has sent a request.</a>
-																			<span class="text-muted ml-2">8:30PM 20 June</span>
-																			<span class="label label-light-danger font-weight-bolder label-inline ml-2">pending</span>
-																		</div>
-																		<div class="dropdown ml-2" data-toggle="tooltip" title="Quick actions" data-placement="left">
-																			<a href="#" class="btn btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-																				<i class="ki ki-more-hor icon-md"></i>
-																			</a>
-																			<div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-																				<!--begin::Navigation-->
-																				<ul class="navi navi-hover">
-																					<li class="navi-header font-weight-bold py-4">
-																						<span class="font-size-lg">Choose Label:</span>
-																						<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-																					</li>
-																					<li class="navi-separator mb-3 opacity-70"></li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-success">Customer</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-danger">Partner</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-warning">Suplier</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-primary">Member</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-dark">Staff</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-separator mt-3 opacity-70"></li>
-																					<li class="navi-footer py-4">
-																						<a class="btn btn-clean font-weight-bold btn-sm" href="#">
-																						<i class="ki ki-plus icon-sm"></i>Add new</a>
-																					</li>
-																				</ul>
-																				<!--end::Navigation-->
-																			</div>
-																		</div>
-																	</div>
-																	<p class="p-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-																</div>
-															</div>
-															<div class="timeline-item">
-																<div class="timeline-media">
-																	<i class="flaticon2-layers text-warning"></i>
-																</div>
-																<div class="timeline-content">
-																	<div class="d-flex align-items-center justify-content-between mb-3">
-																		<div class="mr-2">
-																			<a href="#" class="text-dark-75 text-hover-primary font-weight-bold">System deployment has been completed.</a>
-																			<span class="text-muted ml-2">11:00AM 30 June</span>
-																			<span class="label label-light-warning font-weight-bolder label-inline ml-2">done</span>
-																		</div>
-																		<div class="dropdown ml-2" data-toggle="tooltip" title="Quick actions" data-placement="left">
-																			<a href="#" class="btn btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-																				<i class="ki ki-more-hor icon-md"></i>
-																			</a>
-																			<div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-																				<!--begin::Navigation-->
-																				<ul class="navi navi-hover">
-																					<li class="navi-header font-weight-bold py-4">
-																						<span class="font-size-lg">Choose Label:</span>
-																						<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-																					</li>
-																					<li class="navi-separator mb-3 opacity-70"></li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-success">Customer</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-danger">Partner</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-warning">Suplier</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-primary">Member</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-dark">Staff</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-separator mt-3 opacity-70"></li>
-																					<li class="navi-footer py-4">
-																						<a class="btn btn-clean font-weight-bold btn-sm" href="#">
-																						<i class="ki ki-plus icon-sm"></i>Add new</a>
-																					</li>
-																				</ul>
-																				<!--end::Navigation-->
-																			</div>
-																		</div>
-																	</div>
-																	<p class="p-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-																</div>
-															</div>
-															<div class="timeline-item">
-																<div class="timeline-media">
-																	<i class="flaticon2-notification fl text-primary"></i>
-																</div>
-																<div class="timeline-content">
-																	<div class="d-flex align-items-center justify-content-between mb-3">
-																		<div class="mr-2">
-																			<a href="#" class="text-dark-75 text-hover-primary font-weight-bold">Database backup has been completed.</a>
-																			<span class="text-muted ml-2">2 months ago</span>
-																			<span class="label label-light-primary font-weight-bolder label-inline ml-2">delivered</span>
-																		</div>
-																		<div class="dropdown ml-2" data-toggle="tooltip" title="Quick actions" data-placement="left">
-																			<a href="#" class="btn btn-hover-light-primary btn-sm btn-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-																				<i class="ki ki-more-hor icon-md"></i>
-																			</a>
-																			<div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-																				<!--begin::Navigation-->
-																				<ul class="navi navi-hover">
-																					<li class="navi-header font-weight-bold py-4">
-																						<span class="font-size-lg">Choose Label:</span>
-																						<i class="flaticon2-information icon-md text-muted" data-toggle="tooltip" data-placement="right" title="Click to learn more..."></i>
-																					</li>
-																					<li class="navi-separator mb-3 opacity-70"></li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-success">Customer</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-danger">Partner</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-warning">Suplier</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-primary">Member</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-item">
-																						<a href="#" class="navi-link">
-																							<span class="navi-text">
-																								<span class="label label-xl label-inline label-light-dark">Staff</span>
-																							</span>
-																						</a>
-																					</li>
-																					<li class="navi-separator mt-3 opacity-70"></li>
-																					<li class="navi-footer py-4">
-																						<a class="btn btn-clean font-weight-bold btn-sm" href="#">
-																						<i class="ki ki-plus icon-sm"></i>Add new</a>
-																					</li>
-																				</ul>
-																				<!--end::Navigation-->
-																			</div>
-																		</div>
-																	</div>
-																	<p class="p-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-													<!--end::Timeline-->
+										</div>
+										<!--end::Row-->
+										<!--begin::Advance Table: Widget 7-->
+										<div class="card card-custom gutter-b">
+											<!--begin::Header-->
+											<div class="card-header border-0 pt-5">
+												<h3 class="card-title align-items-start flex-column">
+													<span class="card-label font-weight-bolder text-dark">New Arrivals</span>
+													<span class="text-muted mt-3 font-weight-bold font-size-sm">More than 400+ new members</span>
+												</h3>
+												<div class="card-toolbar">
+													<ul class="nav nav-pills nav-pills-sm nav-dark-75">
+														<li class="nav-item">
+															<a class="nav-link py-2 px-4" data-toggle="tab" href="#kt_tab_pane_12_1">Month</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link py-2 px-4" data-toggle="tab" href="#kt_tab_pane_12_2">Week</a>
+														</li>
+														<li class="nav-item">
+															<a class="nav-link py-2 px-4 active" data-toggle="tab" href="#kt_tab_pane_12_3">Day</a>
+														</li>
+													</ul>
 												</div>
 											</div>
-											<!--end::Tab Content-->
+											<!--end::Header-->
+											<!--begin::Body-->
+											<div class="card-body pt-2 pb-0 mt-n3">
+												<div class="tab-content mt-5" id="myTabTables12">
+													<!--begin::Tap pane-->
+													<div class="tab-pane fade" id="kt_tab_pane_12_1" role="tabpanel" aria-labelledby="kt_tab_pane_12_1">
+														<!--begin::Table-->
+														<div class="table-responsive">
+															<table class="table table-borderless table-vertical-center">
+																<thead>
+																	<tr>
+																		<th class="p-0 w-50px"></th>
+																		<th class="p-0 min-w-200px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-160px"></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/005-bebo.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark font-weight-bolder text-hover-primary mb-1 font-size-lg">Beats Studio</a>
+																			<span class="text-muted font-weight-bold d-block">FTP: bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right pr-0">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$57,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">AngularJS, C#</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-danger label-inline">Rejected</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/014-kickstarter.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">KTR Application</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$45,200,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJS, Ruby</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/006-plurk.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Sant Outstanding</a>
+																			<div>
+																				<span class="font-weight-bolder">Email:</span>
+																				<a class="text-muted font-weight-bold text-hover-primary" href="#">bprow@bnc.cc</a>
+																			</div>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$2,000,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJs, HTML</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-primary label-inline">Approved</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/015-telegram.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Telegram Mobile</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$4,600,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Python, MySQL</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/003-puzzle.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Cisco Management</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$560,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Laravel, Metronic</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-success label-inline">Success</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!--end::Table-->
+													</div>
+													<!--end::Tap pane-->
+													<!--begin::Tap pane-->
+													<div class="tab-pane fade" id="kt_tab_pane_12_2" role="tabpanel" aria-labelledby="kt_tab_pane_12_2">
+														<!--begin::Table-->
+														<div class="table-responsive">
+															<table class="table table-borderless table-vertical-center">
+																<thead>
+																	<tr>
+																		<th class="p-0 w-50px"></th>
+																		<th class="p-0 min-w-200px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-160px"></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/015-telegram.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Telegram Mobile</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$4,600,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Python, MySQL</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/003-puzzle.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Cisco Management</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$560,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Laravel, Metronic</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-success label-inline">Success</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/005-bebo.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark font-weight-bolder text-hover-primary mb-1 font-size-lg">Beats Studio</a>
+																			<span class="text-muted font-weight-bold d-block">FTP: bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right pr-0">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$57,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">AngularJS, C#</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-danger label-inline">Rejected</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/006-plurk.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Sant Outstanding</a>
+																			<div>
+																				<span class="font-weight-bolder">Email:</span>
+																				<a class="text-muted font-weight-bold text-hover-primary" href="#">bprow@bnc.cc</a>
+																			</div>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$2,000,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJs, HTML</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-primary label-inline">Approved</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/014-kickstarter.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">KTR Application</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$45,200,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJS, Ruby</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!--end::Table-->
+													</div>
+													<!--end::Tap pane-->
+													<!--begin::Tap pane-->
+													<div class="tab-pane fade show active" id="kt_tab_pane_12_3" role="tabpanel" aria-labelledby="kt_tab_pane_12_3">
+														<!--begin::Table-->
+														<div class="table-responsive">
+															<table class="table table-borderless table-vertical-center">
+																<thead>
+																	<tr>
+																		<th class="p-0 w-50px"></th>
+																		<th class="p-0 min-w-200px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-120px"></th>
+																		<th class="p-0 min-w-160px"></th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/006-plurk.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Sant Outstanding</a>
+																			<div>
+																				<span class="font-weight-bolder">Email:</span>
+																				<a class="text-muted font-weight-bold text-hover-primary" href="#">bprow@bnc.cc</a>
+																			</div>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$2,000,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJs, HTML</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-primary label-inline">Approved</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/015-telegram.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Telegram Mobile</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$4,600,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Python, MySQL</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/003-puzzle.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Cisco Management</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$560,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">Laravel, Metronic</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-success label-inline">Success</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/005-bebo.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark font-weight-bolder text-hover-primary mb-1 font-size-lg">Beats Studio</a>
+																			<span class="text-muted font-weight-bold d-block">FTP: bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right pr-0">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$57,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">AngularJS, C#</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-danger label-inline">Rejected</span>
+																		</td>
+																		<td class="pr-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-0 py-4">
+																			<div class="symbol symbol-50 symbol-light mr-5">
+																				<span class="symbol-label">
+																					<img src="https://preview.keenthemes.com/metronic/theme/html/demo1/dist/assets/media/svg/misc/014-kickstarter.svg" class="h-50 align-self-center" alt="" />
+																				</span>
+																			</div>
+																		</td>
+																		<td class="pl-0">
+																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">KTR Application</a>
+																			<span class="text-muted font-weight-bold d-block">
+																			<span class="font-weight-bolder text-dark-75">FTP:</span>bprow@bnc.cc</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$45,200,000</span>
+																			<span class="text-muted font-weight-bold">Paid</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="text-muted font-weight-bold">ReactJS, Ruby</span>
+																		</td>
+																		<td class="text-right">
+																			<span class="label label-lg label-light-warning label-inline">In Progress</span>
+																		</td>
+																		<td class="p-0 text-right">
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Settings-1.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M7,3 L17,3 C19.209139,3 21,4.790861 21,7 C21,9.209139 19.209139,11 17,11 L7,11 C4.790861,11 3,9.209139 3,7 C3,4.790861 4.790861,3 7,3 Z M7,9 C8.1045695,9 9,8.1045695 9,7 C9,5.8954305 8.1045695,5 7,5 C5.8954305,5 5,5.8954305 5,7 C5,8.1045695 5.8954305,9 7,9 Z" fill="#000000" />
+																							<path d="M7,13 L17,13 C19.209139,13 21,14.790861 21,17 C21,19.209139 19.209139,21 17,21 L7,21 C4.790861,21 3,19.209139 3,17 C3,14.790861 4.790861,13 7,13 Z M17,19 C18.1045695,19 19,18.1045695 19,17 C19,15.8954305 18.1045695,15 17,15 C15.8954305,15 15,15.8954305 15,17 C15,18.1045695 15.8954305,19 17,19 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mx-3">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Communication/Write.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M12.2674799,18.2323597 L12.0084872,5.45852451 C12.0004303,5.06114792 12.1504154,4.6768183 12.4255037,4.38993949 L15.0030167,1.70195304 L17.5910752,4.40093695 C17.8599071,4.6812911 18.0095067,5.05499603 18.0083938,5.44341307 L17.9718262,18.2062508 C17.9694575,19.0329966 17.2985816,19.701953 16.4718324,19.701953 L13.7671717,19.701953 C12.9505952,19.701953 12.2840328,19.0487684 12.2674799,18.2323597 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.701953, 10.701953) rotate(-135.000000) translate(-14.701953, -10.701953)" />
+																							<path d="M12.9,2 C13.4522847,2 13.9,2.44771525 13.9,3 C13.9,3.55228475 13.4522847,4 12.9,4 L6,4 C4.8954305,4 4,4.8954305 4,6 L4,18 C4,19.1045695 4.8954305,20 6,20 L18,20 C19.1045695,20 20,19.1045695 20,18 L20,13 C20,12.4477153 20.4477153,12 21,12 C21.5522847,12 22,12.4477153 22,13 L22,18 C22,20.209139 20.209139,22 18,22 L6,22 C3.790861,22 2,20.209139 2,18 L2,6 C2,3.790861 3.790861,2 6,2 L12.9,2 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																			<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
+																				<span class="svg-icon svg-icon-md svg-icon-primary">
+																					<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/General/Trash.svg-->
+																					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+																						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+																							<rect x="0" y="0" width="24" height="24" />
+																							<path d="M6,8 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.5,22 C17.3284271,22 18,21.3284271 18,20.5 L18,8 L6,8 Z" fill="#000000" fill-rule="nonzero" />
+																							<path d="M14,4.5 L14,4 C14,3.44771525 13.5522847,3 13,3 L11,3 C10.4477153,3 10,3.44771525 10,4 L10,4.5 L5.5,4.5 C5.22385763,4.5 5,4.72385763 5,5 L5,5.5 C5,5.77614237 5.22385763,6 5.5,6 L18.5,6 C18.7761424,6 19,5.77614237 19,5.5 L19,5 C19,4.72385763 18.7761424,4.5 18.5,4.5 L14,4.5 Z" fill="#000000" opacity="0.3" />
+																						</g>
+																					</svg>
+																					<!--end::Svg Icon-->
+																				</span>
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!--end::Table-->
+													</div>
+													<!--end::Tap pane-->
+												</div>
+											</div>
+											<!--end::Body-->
 										</div>
+										<!--end::Advance Table Widget 7-->
 									</div>
-									<!--end::Body-->
+									<!--end::Content-->
 								</div>
-								<!--end::Card-->
+								<!--end::Profile Overview-->
 							</div>
 							<!--end::Container-->
 						</div>
@@ -2668,7 +3428,7 @@
 				<!--begin::Header-->
 				<div class="d-flex align-items-center mt-5">
 					<div class="symbol symbol-100 mr-5">
-						<div class="symbol-label" style="background-image:url('../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg')"></div>
+						<div class="symbol-label" style="background-image:url('../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg')"></div>
 						<i class="symbol-badge bg-success"></i>
 					</div>
 					<div class="d-flex flex-column">
@@ -2704,7 +3464,7 @@
 				<!--begin::Nav-->
 				<div class="navi navi-spacer-x-0 p-0">
 					<!--begin::Item-->
-					<a href="../user/profile-1/personal-information.html" class="navi-item">
+					<a href="../../user/profile-1/personal-information.html" class="navi-item">
 						<div class="navi-link">
 							<div class="symbol symbol-40 bg-light mr-3">
 								<div class="symbol-label">
@@ -2730,7 +3490,7 @@
 					</a>
 					<!--end:Item-->
 					<!--begin::Item-->
-					<a href="../user/profile-3.html" class="navi-item">
+					<a href="../../user/profile-3.html" class="navi-item">
 						<div class="navi-link">
 							<div class="symbol symbol-40 bg-light mr-3">
 								<div class="symbol-label">
@@ -2757,7 +3517,7 @@
 					</a>
 					<!--end:Item-->
 					<!--begin::Item-->
-					<a href="../user/profile-2.html" class="navi-item">
+					<a href="../../user/profile-2.html" class="navi-item">
 						<div class="navi-link">
 							<div class="symbol symbol-40 bg-light mr-3">
 								<div class="symbol-label">
@@ -2782,7 +3542,7 @@
 					</a>
 					<!--end:Item-->
 					<!--begin::Item-->
-					<a href="../userprofile-1/overview.html" class="navi-item">
+					<a href="../../userprofile-1/overview.html" class="navi-item">
 						<div class="navi-link">
 							<div class="symbol symbol-40 bg-light mr-3">
 								<div class="symbol-label">
@@ -2944,7 +3704,7 @@
 							</div>
 						</div>
 						<a href="#" class="symbol symbol-70 flex-shrink-0">
-							<img src="../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-1.jpg" title="" alt="" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-1.jpg" title="" alt="" />
 						</a>
 					</div>
 					<!--end::Item-->
@@ -2969,7 +3729,7 @@
 							</div>
 						</div>
 						<a href="#" class="symbol symbol-70 flex-shrink-0">
-							<img src="../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-2.jpg" title="" alt="" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-2.jpg" title="" alt="" />
 						</a>
 					</div>
 					<!--end::Item-->
@@ -2994,7 +3754,7 @@
 							</div>
 						</div>
 						<a href="#" class="symbol symbol-70 flex-shrink-0">
-							<img src="../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-3.jpg" title="" alt="" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-3.jpg" title="" alt="" />
 						</a>
 					</div>
 					<!--end::Item-->
@@ -3019,7 +3779,7 @@
 							</div>
 						</div>
 						<a href="#" class="symbol symbol-70 flex-shrink-0">
-							<img src="../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-4.jpg" title="" alt="" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-4.jpg" title="" alt="" />
 						</a>
 					</div>
 					<!--end::Item-->
@@ -3044,7 +3804,7 @@
 							</div>
 						</div>
 						<a href="#" class="symbol symbol-70 flex-shrink-0">
-							<img src="../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-8.jpg" title="" alt="" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-8.jpg" title="" alt="" />
 						</a>
 					</div>
 					<!--end::Item-->
@@ -3718,7 +4478,7 @@
 									<div class="d-flex flex-column mb-5 align-items-start">
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-circle symbol-40 mr-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
 											</div>
 											<div>
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -3736,7 +4496,7 @@
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
 											</div>
 											<div class="symbol symbol-circle symbol-40 ml-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
 											</div>
 										</div>
 										<div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Hey there, we’re just writing to let you know that you’ve been subscribed to a repository on GitHub.</div>
@@ -3746,7 +4506,7 @@
 									<div class="d-flex flex-column mb-5 align-items-start">
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-circle symbol-40 mr-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
 											</div>
 											<div>
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -3764,7 +4524,7 @@
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
 											</div>
 											<div class="symbol symbol-circle symbol-40 ml-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
 											</div>
 										</div>
 										<div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">You’ll receive notifications for all issues, pull requests!</div>
@@ -3774,7 +4534,7 @@
 									<div class="d-flex flex-column mb-5 align-items-start">
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-circle symbol-40 mr-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
 											</div>
 											<div>
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -3793,7 +4553,7 @@
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
 											</div>
 											<div class="symbol symbol-circle symbol-40 ml-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
 											</div>
 										</div>
 										<div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Discover what students who viewed Learn Figma - UI/UX Design. Essential Training also viewed</div>
@@ -3803,7 +4563,7 @@
 									<div class="d-flex flex-column mb-5 align-items-start">
 										<div class="d-flex align-items-center">
 											<div class="symbol symbol-circle symbol-40 mr-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_12.jpg" />
 											</div>
 											<div>
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">Matt Pears</a>
@@ -3821,7 +4581,7 @@
 												<a href="#" class="text-dark-75 text-hover-primary font-weight-bold font-size-h6">You</a>
 											</div>
 											<div class="symbol symbol-circle symbol-40 ml-3">
-												<img alt="Pic" src="../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
+												<img alt="Pic" src="../../../../../theme/html/demo1/dist/assets/media/users/300_21.jpg" />
 											</div>
 										</div>
 										<div class="mt-2 rounded p-5 bg-light-primary text-dark-50 font-weight-bold font-size-lg text-right max-w-400px">Company BBQ to celebrate the last quater achievements and goals. Food and drinks provided</div>
@@ -3885,7 +4645,7 @@
 			<!--end::Item-->
 			<!--begin::Item-->
 			<li class="nav-item mb-2" data-toggle="tooltip" title="Layout Builder" data-placement="left">
-				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="../../../builder.html">
+				<a class="btn btn-sm btn-icon btn-bg-light btn-icon-primary btn-hover-primary" href="../../../../builder.html">
 					<i class="flaticon2-gear"></i>
 				</a>
 			</li>
@@ -3923,137 +4683,137 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 1</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo offcanvas-demo-active">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo1.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo1.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="../../../rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="../../../../rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 2</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo2.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo2.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo2/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo2/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo2/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo2/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 3</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo3.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo3.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo3/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo3/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo3/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo3/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 4</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo4.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo4.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo4/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo4/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo4/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo4/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 5</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo5.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo5.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo5/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo5/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo5/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo5/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 6</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo6.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo6.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo6/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo6/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo6/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo6/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 7</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo7.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo7.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo7/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo7/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo7/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo7/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 8</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo8.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo8.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo8/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo8/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo8/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo8/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 9</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo9.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo9.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo9/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo9/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo9/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo9/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 10</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo10.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo10.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo10/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo10/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo10/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo10/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 11</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo11.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo11.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo11/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo11/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo11/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo11/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 12</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo12.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo12.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo12/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo12/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo12/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo12/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 13</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo13.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo13.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
-							<a href="https://preview.keenthemes.com/metronic/demo13/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
-							<a href="https://preview.keenthemes.com/metronic/demo13/rtl/custom/apps/projects/edit-project.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
+							<a href="https://preview.keenthemes.com/metronic/demo13/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow" target="_blank">Default</a>
+							<a href="https://preview.keenthemes.com/metronic/demo13/rtl/custom/apps/profile/profile-1/overview.html" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow ml-3" target="_blank">RTL Version</a>
 						</div>
 					</div>
 					<h5 class="font-weight-bold mb-4 text-center">Demo 14</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo14.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo14.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4062,7 +4822,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 15</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo15.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo15.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4071,7 +4831,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 16</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo16.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo16.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4080,7 +4840,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 17</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo17.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo17.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4089,7 +4849,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 18</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo18.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo18.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4098,7 +4858,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 19</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo19.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo19.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4107,7 +4867,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 20</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo20.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo20.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4116,7 +4876,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 21</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo21.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo21.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4125,7 +4885,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 22</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo22.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo22.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4134,7 +4894,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 23</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo23.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo23.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4143,7 +4903,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 24</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo24.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo24.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4152,7 +4912,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 25</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo25.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo25.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4161,7 +4921,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 26</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo26.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo26.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4170,7 +4930,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 27</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo27.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo27.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4179,7 +4939,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 28</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo28.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo28.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4188,7 +4948,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 29</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo29.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo29.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4197,7 +4957,7 @@
 					<h5 class="font-weight-bold mb-4 text-center">Demo 30</h5>
 					<div class="overlay rounded-lg mb-8 offcanvas-demo">
 						<div class="overlay-wrapper rounded-lg">
-							<img src="../../../../theme/html/demo1/dist/assets/media/demos/demo30.png" alt="" class="w-100" />
+							<img src="../../../../../theme/html/demo1/dist/assets/media/demos/demo30.png" alt="" class="w-100" />
 						</div>
 						<div class="overlay-layer">
 							<a href="#" class="btn btn-white btn-text-primary btn-hover-primary font-weight-boldest text-center min-w-75px shadow disabled opacity-90">Coming soon</a>
@@ -4219,12 +4979,16 @@
 		<script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1400 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#3699FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#E4E6EF", "dark": "#181C32" }, "light": { "white": "#ffffff", "primary": "#E1F0FF", "secondary": "#EBEDF3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#3F4254", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#EBEDF3", "gray-300": "#E4E6EF", "gray-400": "#D1D3E0", "gray-500": "#B5B5C3", "gray-600": "#7E8299", "gray-700": "#5E6278", "gray-800": "#3F4254", "gray-900": "#181C32" } }, "font-family": "Poppins" };</script>
 		<!--end::Global Config-->
 		<!--begin::Global Theme Bundle(used by all pages)-->
-		<script src="../../../../theme/html/demo1/dist/assets/plugins/global/plugins.bundleafa4.js?v=7.2.0"></script>
-		<script src="../../../../theme/html/demo1/dist/assets/plugins/custom/prismjs/prismjs.bundleafa4.js?v=7.2.0"></script>
-		<script src="../../../../theme/html/demo1/dist/assets/js/scripts.bundleafa4.js?v=7.2.0"></script>
+		<script src="../../../../../theme/html/demo1/dist/assets/plugins/global/plugins.bundleafa4.js?v=7.2.0"></script>
+		<script src="../../../../../theme/html/demo1/dist/assets/plugins/custom/prismjs/prismjs.bundleafa4.js?v=7.2.0"></script>
+		<script src="../../../../../theme/html/demo1/dist/assets/js/scripts.bundleafa4.js?v=7.2.0"></script>
 		<!--end::Global Theme Bundle-->
+		<!--begin::Page Scripts(used by this page)-->
+		<script src="../../../../../theme/html/demo1/dist/assets/js/pages/widgetsafa4.js?v=7.2.0"></script>
+		<script src="../../../../../theme/html/demo1/dist/assets/js/pages/custom/profile/profileafa4.js?v=7.2.0"></script>
+		<!--end::Page Scripts-->
 	</body>
 	<!--end::Body-->
 
-<!-- Mirrored from preview.keenthemes.com/metronic/demo1/custom/apps/projects/edit-project.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2021 13:40:13 GMT -->
+<!-- Mirrored from preview.keenthemes.com/metronic/demo1/custom/apps/profile/profile-1/overview.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Feb 2021 13:39:17 GMT -->
 </html>
