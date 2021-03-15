@@ -8,7 +8,7 @@
 <head>
 
 <meta charset="utf-8" />
-		<title>View User Details | TMS | Technagers Management System</title>
+		<title>View User Details | TMS | Ahsan Technagers Management System</title>
 		<?php include('../../../include/head.php'); ?>
 		<!--begin::Page Custom Styles(used by this page)-->
 		
