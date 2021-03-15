@@ -194,12 +194,10 @@
 															</div>
 														</div>
 														<div class="d-flex justify-content-between border-top mt-5 pt-10">
-															<div class="mr-2">
-																<button type="button" class="btn btn-light-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="action-prev">Previous</button>
-															</div>
+															
 															<div>
 																
-																<button type="button" class="btn btn-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="action-next">Submit</button>
+																<button type="button" class="btn btn-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="act">Submit</button>
 															</div>
 														</div>
 													
