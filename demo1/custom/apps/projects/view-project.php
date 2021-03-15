@@ -31,13 +31,13 @@
 		<div class="d-flex flex-column flex-root">
 			<!--begin::Page-->
 			<div class="d-flex flex-row flex-column-fluid page">
-				<!--begin::Aside-->
-				<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
-				
+			<div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+					<!--begin::Brand-->
+					<?php include '../../../include/brand_logo.php';?>
+					<!--end::Brand-->
+
 					<!--begin::Aside Menu-->
-				<!--begin::Aside Menu-->
-				<?php include '../../../include/aside-menu.php';?>
-					<!--end::Aside Menu-->
+					<?php include '../../../include/aside-menu.php';?>
 					<!--end::Aside Menu-->
 				</div>
 				<!--end::Aside-->
