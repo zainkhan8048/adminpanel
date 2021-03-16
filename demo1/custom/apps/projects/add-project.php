@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <?php
-  ob_start();
-  session_start();
+  	ob_start();
+  	session_start();
+
+  	$user_id = $_SESSION['user_id'];
+
+   	if(!isset($_SESSION['user_id']))
+ 	{
+		//User not logged in. Redirect them back to the login page.
+      	header("Location: ../../pages/login/login-4/login.php");
+    	exit;
+  	}
+
 ?>
 <html lang="en">
 	<!--begin::Head-->
@@ -119,21 +129,20 @@
 	if(isset($_POST['submit']))
 	{
 
-		$user_id = $_SESSION['user_id'];
 		$role_type = $_SESSION['role_type'];	
 	//echo "<br/>";		
 		//Retrieve the field values from our login form.
 		
-		echo "<br/>".$project_title = !empty($_POST['project_title']) ? trim($_POST['project_title']) : null;
-		echo "<br/>".$project_source = !empty($_POST['project_source']) ? trim($_POST['project_source']) : null;
-		echo "<br/>".$project_cost = !empty($_POST['project_cost']) ? trim($_POST['project_cost']) : null;
-		echo "<br/>".$currency_id = !empty($_POST['currency_id']) ? trim($_POST['currency_id']) : null;
-		echo "<br/>".$project_type = !empty($_POST['project_type']) ? trim($_POST['project_type']) : null;
-		echo "<br/>".$project_technology = !empty($_POST['project_technology']) ? trim($_POST['project_technology']) : null;		
-		echo "<br/>".$project_deadline = !empty($_POST['project_deadline']) ? trim($_POST['project_deadline']) : null;
+		$project_title = !empty($_POST['project_title']) ? trim($_POST['project_title']) : null;
+		$project_source = !empty($_POST['project_source']) ? trim($_POST['project_source']) : null;
+		$project_cost = !empty($_POST['project_cost']) ? trim($_POST['project_cost']) : null;
+		$currency_id = !empty($_POST['currency_id']) ? trim($_POST['currency_id']) : null;
+		$project_type_id = !empty($_POST['project_type_id']) ? trim($_POST['project_type_id']) : null;
+		$project_technology = !empty($_POST['project_technology']) ? trim($_POST['project_technology']) : null;		
+		$project_deadline = !empty($_POST['project_deadline']) ? trim($_POST['project_deadline']) : null;
 
 	//Function calling here...
-    add_project($project_title, $project_source, $project_cost, $currency_id, $project_type, $project_technology, $project_deadline, $user_id);
+    	add_project($project_title, $project_source, $project_cost, $currency_id, $project_type_id, $project_technology, $project_deadline, $user_id);
 
 		die();
 
@@ -226,7 +235,7 @@
 																	<div class="form-group row">
 																	<label class="col-xl-3 col-lg-3 col-form-label">Deadlines</label>
 																	<div class="col-lg-8 col-xl-9">
-																			<input class="form-control form-control-lg form-control-solid" name="deadline" type="date" />
+																			<input class="form-control form-control-lg form-control-solid" name="project_deadline" type="date" />
 																		</div>
 																	
 																	<div class="pb-5" data-wizard-type="step-content">

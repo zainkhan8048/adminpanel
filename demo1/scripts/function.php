@@ -20,7 +20,7 @@ function db()
 		  $conn = new PDO("mysql:host=$servername;dbname=technager_db", $username, $password);
 		  // set the PDO error mode to exception
 		  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		  echo "Connected successfully";
+		  //echo "Connected successfully";
 		} 
 		catch(PDOException $e) 
 		{
@@ -133,7 +133,7 @@ function add_project($project_title, $project_source, $project_cost, $currency_i
 	$stmt->bindValue(':project_source', $project_source);
 	$stmt->bindValue(':project_cost', $project_cost);
 	$stmt->bindValue(':currency_id', $currency_id);
-	$stmt->bindValue(':project_type_id', '1');
+	$stmt->bindValue(':project_type_id', $project_type_id);
 	$stmt->bindValue(':project_technology', $project_technology);
 	$stmt->bindValue(':project_deadline', $project_deadline);					
 	$stmt->bindValue(':user_id', $user_id);
@@ -148,7 +148,8 @@ function add_project($project_title, $project_source, $project_cost, $currency_i
 	{
 
 	//Email
-		echo "Inserted";
+		echo "Your Project Inserted, Kindly wait for the approval";
+		echo "<meta http-equiv='Refresh' content='2;url=view-project.php'>";
 	}
 	else 
 	{
