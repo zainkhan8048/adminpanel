@@ -105,4 +105,55 @@ function login($user_email, $passwordAttempt)
 	}
 }
 
+
+
+
+//////////////////////////Projet Module / Sales Module Fuctions////////////////////////////////////////
+
+
+//Add Project Function...
+function add_project($project_title, $project_source, $project_cost, $currency_id, $project_type_id, $project_technology, $project_deadline, $user_id)
+{
+	//$user_id = $_SESSION['user_id'];
+	//$role_type = $_SESSION['role_type'];	
+	
+	
+	$conn = db();
+
+	//Prepare our INSERT statement.
+	$sql = "INSERT INTO 
+	     tbl_project (project_title, project_source, project_cost, currency_id, project_type_id, project_technology, project_deadline, project_status, project_decision_status, project_received_datetime, user_id) 
+	   VALUES 
+	   (:project_title, :project_source, :project_cost, :currency_id, :project_type_id, :project_technology, :project_deadline, 'active', 'pending', Now(), :user_id)";
+
+	$stmt = $conn->prepare($sql);
+
+	//Bind our variables.
+	$stmt->bindValue(':project_title', $project_title);
+	$stmt->bindValue(':project_source', $project_source);
+	$stmt->bindValue(':project_cost', $project_cost);
+	$stmt->bindValue(':currency_id', $currency_id);
+	$stmt->bindValue(':project_type_id', '1');
+	$stmt->bindValue(':project_technology', $project_technology);
+	$stmt->bindValue(':project_deadline', $project_deadline);					
+	$stmt->bindValue(':user_id', $user_id);
+
+	//Execute the statement and insert the new account.
+	$result = $stmt->execute();
+	//$subscriber_id = $conn->lastInsertId();
+
+
+	//If the signup process is successful.
+	if($result > 0)
+	{
+
+	//Email
+		echo "Inserted";
+	}
+	else 
+	{
+		echo "Not Inserted";
+	}
+}
+
 ?>

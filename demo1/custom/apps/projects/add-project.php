@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-
+<?php
+  ob_start();
+  session_start();
+?>
 <html lang="en">
 	<!--begin::Head-->
 	
@@ -101,9 +104,46 @@
 												</div>
 											</div>
 											<!--end::Wizard Nav-->
+<?php
+
+
+	//include all fuctions file 1st...
+	include '../../../scripts/function.php';
+	
+	//DB Connection
+	$conn = db();
+
+
+
+
+	if(isset($_POST['submit']))
+	{
+
+		$user_id = $_SESSION['user_id'];
+		$role_type = $_SESSION['role_type'];	
+	//echo "<br/>";		
+		//Retrieve the field values from our login form.
+		
+		echo "<br/>".$project_title = !empty($_POST['project_title']) ? trim($_POST['project_title']) : null;
+		echo "<br/>".$project_source = !empty($_POST['project_source']) ? trim($_POST['project_source']) : null;
+		echo "<br/>".$project_cost = !empty($_POST['project_cost']) ? trim($_POST['project_cost']) : null;
+		echo "<br/>".$currency_id = !empty($_POST['currency_id']) ? trim($_POST['currency_id']) : null;
+		echo "<br/>".$project_type = !empty($_POST['project_type']) ? trim($_POST['project_type']) : null;
+		echo "<br/>".$project_technology = !empty($_POST['project_technology']) ? trim($_POST['project_technology']) : null;		
+		echo "<br/>".$project_deadline = !empty($_POST['project_deadline']) ? trim($_POST['project_deadline']) : null;
+
+	//Function calling here...
+    add_project($project_title, $project_source, $project_cost, $currency_id, $project_type, $project_technology, $project_deadline, $user_id);
+
+		die();
+
+	}
+?>
+
+
 											<!--begin::Wizard Body-->
 											<div class="row justify-content-center my-10 px-8 my-lg-15 px-lg-10">
-											<form class="form" id="kt_projects_add_form">
+											<form class="form" id="kt_projects_add_form" style="width:70%" method="post" action="add-project.php">
 														<!--begin::Step 1-->
 														<div class="pb-5" data-wizard-type="step-content" data-wizard-state="current">
 															<h3 class="mb-10 font-weight-bold text-dark">Project Details:</h3>
@@ -112,31 +152,41 @@
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Project Title</label>
 																		<div class="col-lg-9 col-xl-9">
-																			<input class="form-control form-control-lg form-control-solid" name="projectname" type="text"/>
+																			<input class="form-control form-control-lg form-control-solid" name="project_title" placeholder="Project Title*" type="text" />
 																		</div>
 																	</div>
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Project Source</label>
 																		<div class="col-lg-9 col-xl-9">
-																			<input class="form-control form-control-lg form-control-solid" name="projectowner" type="text"/>
+																			<input class="form-control form-control-lg form-control-solid" name="project_source" placeholder="Project Source*" type="text"/>
 																		</div>
 																	</div>
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Project Cost</label>
 																		<div class="col-lg-9 col-xl-4">
-																			<input class="form-control form-control-lg form-control-solid" name="customername" type="text"/>
+																			<input class="form-control form-control-lg form-control-solid"placeholder="00.0*" name="project_cost" type="number"/>
 																		</div>
 
 																		<!-- dropdown -->
 																		<div class="col-lg-10 col-xl-5">
 																			
-																			<select name="language" class="form-control form-control-lg form-control-solid">
-																				
-																				<option value="id">PKR</option>
-																				<option value="id">Dollar $</option>
-																				
-																				
-																			</select>
+    <select class="form-control form-control-lg form-control-solid" name="currency_id" id="currency_id" data-placeholder="Select Currency" >
+    <option>Select Currency</option> 
+        <?php
+
+          echo $sql_currency = "SELECT currency_id, currency_code
+                        		FROM tbl_currency";
+          $stmt_role = $conn->prepare($sql_currency); 
+          $result_role = $stmt_role->execute();
+          $result_role = $stmt_role->fetchAll();
+
+          foreach ($result_role as $row_role)
+          {                        
+            $currency_id = $row_role['currency_id'];
+            echo "<option value='".$currency_id."'>".$row_role['currency_code']."</option>";
+          }
+        ?>        
+    </select>
 
 																			
 																		
@@ -146,28 +196,30 @@
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Project Type</label>
 																		<div class="col-lg-9 col-xl-9">
-																			<select name="language" class="form-control form-control-lg form-control-solid">
-																				<option>Select Project Type...</option>
-																				<option value="id">Website Development</option>
-																				<option value="id">Desktop Application</option>
-																				<option value="msa">Web Application</option>
-																				<option value="ca">Mobile Application</option>
-																				
-																			</select>
+																<select class="form-control form-control-lg form-control-solid" name="project_type_id" id="project_type_id">
+																	<option>Select Project Type...</option>
+														        <?php
+														          echo $sql = "SELECT project_type_id, project_type
+														                       FROM tbl_project_type";
+														          $stmt = $conn->prepare($sql); 
+														          $result = $stmt->execute();
+														          $result = $stmt->fetchAll();
+
+														          foreach ($result as $row)
+														          {                        
+														            $project_type_id = $row['project_type_id'];
+														            echo "<option value='".$project_type_id."'>".$row['project_type']."</option>";
+														          }
+														        ?>  
+																</select>
 																		</div>
 																		
 																	</div>
 																	<div class="form-group row">
 																		<label class="col-xl-3 col-lg-3 col-form-label">Technology Type</label>
-																		<div class="col-lg-8 col-xl-9">
-																			<select name="language" class="form-control form-control-lg form-control-solid">
-																				<option>Select Technology...</option>												
-																				<option data-offset="-39600" value="International Date Line West">PHP</option>
-																				<option data-offset="-39600" value="Midway Island">ASP.Net</option>
-																				<option data-offset="-39600" value="Samoa">VB.Net</option>
-																				<option data-offset="46800" value="Nuku'alofa">Laravel</option>
-																			</select>
-																		</div>
+                                                                       <div class="col-lg-9 col-xl-9">
+                                                                            <input class="form-control form-control-lg form-control-solid" name="project_technology" type="Text" placeholder="Project Technology*" id="project_technology"/>
+                                                                    	</div>
 																	</div>
 																	
 																	
@@ -196,7 +248,7 @@
 														<div class="d-flex justify-content-between border-top mt-5 pt-10">
 															<div>
 																
-																<button type="button" class="btn btn-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="act">Submit</button>
+																<button type="submit" class="btn btn-primary font-weight-bolder text-uppercase px-9 py-4" data-wizard-type="act" name="submit">Submit</button>
 															</div>
 														</div>
 													
