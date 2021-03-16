@@ -1,5 +1,18 @@
 <!DOCTYPE html>
+<?php
+  	ob_start();
+  	session_start();
 
+  	$user_id = $_SESSION['user_id'];
+
+   	if(!isset($_SESSION['user_id']))
+ 	{
+		//User not logged in. Redirect them back to the login page.
+      	header("Location: ../../pages/login/login-4/login.php");
+    	exit;
+  	}
+
+?>
 <html lang="en">
 	<!--begin::Head-->
 	
@@ -8,15 +21,11 @@
 <head>
 
 <meta charset="utf-8" />
-		<title>View User Details | TMS | Technagers Management System</title>
+		<title>View Project | TMS | Technagers Management System<</title>
 		<?php include('../../../include/head.php'); ?>
 		<!--begin::Page Custom Styles(used by this page)-->
 		
 		<!--end::Page Custom Styles-->
-		
-		
-		
-		
 		
 	</head>
 	<!--end::Head-->
@@ -684,13 +693,13 @@
 								<!--end::Card-->
 								<!--begin::Row-->
 								<div class="row">
-									<div class="col-lg-18">
+									<div class="col-lg-12">
 										<!--begin::Advance Table Widget 3-->
 										<div class="card card-custom card-stretch gutter-b">
 											<!--begin::Header-->
 											<div class="card-header border-0 py-5">
 												<h3 class="card-title align-items-start flex-column">
-													<span class="card-label font-weight-bolder text-dark">Project details</span>
+													<span class="card-label font-weight-bolder text-dark">All Project details</span>
 													<span class="text-muted mt-3 font-weight-bold font-size-sm"></span>
 												</h3>
 												
@@ -703,209 +712,79 @@
 													<table class="table table-head-custom table-head-bg table-borderless table-vertical-center">
 														<thead>
 															<tr class="text-uppercase">
-																<th style="min-width: 250px" class="pl-7">
-																	<span class="text-dark-75">Projects</span>
+																<th>S.No.</th>	
+																<th style="min-width: 250px">
+																	<span class="text-dark-75">
+																		Project Title
+																	</span>
 																</th>
-																<th style="min-width: 100px">price</th>
-																<th style="min-width: 100px">deposit</th>
-																<th style="min-width: 150px">client</th>
-																<th style="min-width: 130px">status</th>
-																<th style="min-width: 120px"></th>
+																
+																<th>Project Deadline</th>
+																<th>Status</th>
+																<th>Edit</th>	
+																<th>View</th>
 															</tr>
 														</thead>
 														<tbody>
-															<tr>
-																<td class="pl-0 py-8">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-50 flex-shrink-0 mr-4">
-																			<div class="symbol-label" style="background-image: url('../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-26.jpg')"></div>
-																		</div>
-																		<div>
-																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Sant Extreanet Solution</a>
-																			<span class="text-muted font-weight-bold d-block">HTML, JS, ReactJS</span>
-																		</div>
-																	</div>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$2,790</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$520</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">Bradly Beal</span>
-																	<span class="text-muted font-weight-bold">Insurance</span>
-																</td>
-																<td>
-																	<span class="label label-lg label-light-primary label-inline">Approved</span>
-																</td>
-																<td class="text-right pr-0">
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mr-3">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			Edit
-																		</span>
-																	</a>
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Navigation/Arrow-right.svg-->
-																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																					<polygon points="0 0 24 0 24 24 0 24" />
-																					<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-																					<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-																				</g>
-																			</svg>
-																			<!--end::Svg Icon-->
-																		</span>
-																	</a>
-																</td>
-															</tr>
-															<tr>
-																<td class="pl-0 py-0">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-50 flex-shrink-0 mr-4">
-																			<div class="symbol-label" style="background-image: url('../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-3.jpg')"></div>
-																		</div>
-																		<div>
-																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Telegram Development</a>
-																			<span class="text-muted font-weight-bold d-block">C#, ASP.NET, MS SQL</span>
-																		</div>
-																	</div>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$4,600</span>
-																	<span class="text-muted font-weight-bold">Pending</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$1,600</span>
-																	<span class="text-muted font-weight-bold">Rejected</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">Chris Thompson</span>
-																	<span class="text-muted font-weight-bold">NBA Player</span>
-																</td>
-																<td>
-																	<span class="label label-lg label-light-warning label-inline">In Progress</span>
-																</td>
-																<td class="text-right pr-0">
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mr-3" >
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			Edit
-																		</span>
-																	</a>
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Navigation/Arrow-right.svg-->
-																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																					<polygon points="0 0 24 0 24 24 0 24" />
-																					<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-																					<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-																				</g>
-																			</svg>
-																			<!--end::Svg Icon-->
-																		</span>
-																	</a>
-																</td>
-															</tr>
-															<tr>
-																<td class="pl-0 py-8">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-50 flex-shrink-0 mr-4">
-																			<div class="symbol-label" style="background-image: url('../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-5.jpg')"></div>
-																		</div>
-																		<div>
-																			<a href="#" class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">Payroll Application</a>
-																			<span class="text-muted font-weight-bold d-block">PHP, Laravel, VueJS</span>
-																		</div>
-																	</div>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$23,800</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$6,700</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">Zoey McGee</span>
-																	<span class="text-muted font-weight-bold">Ruby Developer</span>
-																</td>
-																<td>
-																	<span class="label label-lg label-light-success label-inline">Success</span>
-																</td>
-																<td class="text-right pr-0">
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mr-3">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			Edit
-																		</span>
-																	</a>
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Navigation/Arrow-right.svg-->
-																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																					<polygon points="0 0 24 0 24 24 0 24" />
-																					<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-																					<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-																				</g>
-																			</svg>
-																			<!--end::Svg Icon-->
-																		</span>
-																	</a>
-																</td>
-															</tr>
-															<tr>
-																<td class="pl-0 py-0">
-																	<div class="d-flex align-items-center">
-																		<div class="symbol symbol-50 flex-shrink-0 mr-4">
-																			<div class="symbol-label" style="background-image: url('../../../../theme/html/demo1/dist/assets/media/stock-600x400/img-18.jpg')"></div>
-																		</div>
-																		<div>
-																			<a href="#" class="text-dark font-weight-bolder text-hover-primary mb-1 font-size-lg">HR Management System</a>
-																			<span class="text-muted font-weight-bold d-block">Python, PostgreSQL, ReactJS</span>
-																		</div>
-																	</div>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$57,000</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">$14,000</span>
-																	<span class="text-muted font-weight-bold">Paid</span>
-																</td>
-																<td>
-																	<span class="text-dark-75 font-weight-bolder d-block font-size-lg">Brandon Ingram</span>
-																	<span class="text-muted font-weight-bold">NBA Player</span>
-																</td>
-																<td>
-																	<span class="label label-lg label-light-danger label-inline">Rejected</span>
-																</td>
-																<td class="text-right pr-0">
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm mr-3">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			Edit
-																		</span>
-																	</a>
-																	<a href="#" class="btn btn-icon btn-light btn-hover-primary btn-sm">
-																		<span class="svg-icon svg-icon-md svg-icon-primary">
-																			<!--begin::Svg Icon | path:/metronic/theme/html/demo1/dist/assets/media/svg/icons/Navigation/Arrow-right.svg-->
-																			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-																				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																					<polygon points="0 0 24 0 24 24 0 24" />
-																					<rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000)" x="11" y="5" width="2" height="14" rx="1" />
-																					<path d="M9.70710318,15.7071045 C9.31657888,16.0976288 8.68341391,16.0976288 8.29288961,15.7071045 C7.90236532,15.3165802 7.90236532,14.6834152 8.29288961,14.2928909 L14.2928896,8.29289093 C14.6714686,7.914312 15.281055,7.90106637 15.675721,8.26284357 L21.675721,13.7628436 C22.08284,14.136036 22.1103429,14.7686034 21.7371505,15.1757223 C21.3639581,15.5828413 20.7313908,15.6103443 20.3242718,15.2371519 L15.0300721,10.3841355 L9.70710318,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(14.999999, 11.999997) scale(1, -1) rotate(90.000000) translate(-14.999999, -11.999997)" />
-																				</g>
-																			</svg>
-																			<!--end::Svg Icon-->
-																		</span>
-																	</a>
-																</td>
-															</tr>
+	<?php
+
+		//include all fuctions file 1st...
+		include '../../../scripts/function.php';
+		
+		//DB Connection
+		$conn = db();
+
+        $sql = "SELECT `project_id`, `project_title`, `project_source`, `project_cost`, `currency_id`, `project_type_id`, `project_technology`, `project_deadline`, `project_received_datetime`, `project_status`, `project_decision_status`, `user_id`, `attached_project_document` 
+        		FROM `tbl_project`";
+        
+        $stmt = $conn->prepare($sql);
+        $result = $stmt->execute();
+        $TJ =  $stmt->rowCount();
+
+        if ($stmt->rowCount() > 0) 
+        { 
+          //initialization for s.no.
+          $a = 0;
+          $b = 1;
+
+          $result = $stmt->fetchAll();
+          foreach ($result as $row) 
+          {
+			echo "<tr>
+				<td align='left'>".$c = $b+$a."</td>
+				<td class='pl-0 py-8'>
+					<div class='d-flex align-items-left'>
+						<div class='symbol symbol-50 flex-shrink-0 mr-4'>
+
+						</div>
+						<div>
+							<a href='#' class='text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg'>".$row['project_title']."</a>
+							<span class='text-muted font-weight-bold d-block'>HTML, JS, ReactJS</span>
+						</div>
+					</div>
+				</td>
+				<td>
+					<span class='text-dark-75 font-weight-bolder d-block font-size-lg'>".$row['project_deadline']."</span>
+					<span class='text-muted font-weight-bold'>0 Days to go</span>
+				</td>
+				<td>
+					<span class='label label-lg label-light-primary label-inline'>".$row['project_decision_status']."</span>
+				</td>
+				<td>
+					<span class='label label-lg label-light-primary label-inline'>Edit</span>
+				</td>
+				<td>
+					<span class='label label-lg label-light-primary label-inline'>View</span>
+				</td>				
+			</tr>";
+
+                   $b++;
+          }
+        }
+        
+    ?>
+
+
 														</tbody>
 													</table>
 												</div>

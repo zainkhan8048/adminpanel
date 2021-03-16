@@ -20,7 +20,7 @@ function db()
 		  $conn = new PDO("mysql:host=$servername;dbname=technager_db", $username, $password);
 		  // set the PDO error mode to exception
 		  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		  //echo "Connected successfully";
+		  echo "Connected successfully";
 		} 
 		catch(PDOException $e) 
 		{
@@ -148,7 +148,7 @@ function add_project($project_title, $project_source, $project_cost, $currency_i
 	{
 
 	//Email
-		echo "Your Project Inserted, Kindly wait for the approval";
+		echo "Your Project Inserted, Kindly wait for the approval.";
 		echo "<meta http-equiv='Refresh' content='2;url=view-project.php'>";
 	}
 	else 

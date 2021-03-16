@@ -21,11 +21,11 @@
 <head>
 		
 		<meta charset="utf-8" />
-		<title>Add Project | | TMS | Technagers Management System<</title>
+		<title>Add Project | TMS | Technagers Management System<</title>
 		<meta name="description" content="Add project page example" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		
-		
+		 
 		<!--begin::Page Custom Styles(used by this page)-->
 		<link href="../../../../theme/html/demo1/dist/assets/css/pages/wizard/wizard-1afa4.css?v=7.2.0" rel="stylesheet" type="text/css" />
 		<!--end::Page Custom Styles-->
@@ -269,8 +269,10 @@
 														<!--begin::Actions-->
 														
 														<!--end::Actions-->
+														</div>
 													</form>
 											</div>
+
 											<!--end::Wizard Body-->
 										</div>
 									</div>
